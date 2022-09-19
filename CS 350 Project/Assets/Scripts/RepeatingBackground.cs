@@ -12,14 +12,12 @@ public class RepeatingBackground : MonoBehaviour
 
     public float ScrollWidth = 17.74f;
 
-    public static int backgroundID;
-
-    public Sprite[] backgrounds;
+    private BackgroundCounter bc;
 
 
-    private void Awake()
+    private void Start()
     {
-        backgroundID = 1;
+        bc = GameObject.FindObjectOfType<BackgroundCounter>();
     }
 
     // Update is called once per frame
@@ -40,11 +38,8 @@ public class RepeatingBackground : MonoBehaviour
     protected virtual void Offscreen(ref Vector3 pos)
     {
         pos.x += 2 * ScrollWidth;
-        backgroundID++;
-        if (backgroundID>=backgrounds.Length)
-        {
-            backgroundID = 0;
-        }
-        GetComponent<SpriteRenderer>().sprite = backgrounds[backgroundID];
+        GetComponent<SpriteRenderer>().sprite = bc.GetSprite();
+
+        
     }
 }
