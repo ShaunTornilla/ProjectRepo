@@ -68,7 +68,7 @@ public class HealthManager : MonoBehaviour
             gameOver = true;
             gameOverText.SetActive(true);
             //ND
-            goText.text = "Game Over!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to quit";
+            goText.text = "Game Over!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to return to the main menu";
             Time.timeScale = 0;
             //Press R to restart if game is over
             //ND
@@ -99,7 +99,7 @@ public class HealthManager : MonoBehaviour
     {
         if(gameOver)
         {
-            Application.Quit();
+            SceneManager.LoadScene("Main Menu");
             Debug.Log("Quitting");
 
         }
