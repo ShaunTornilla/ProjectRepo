@@ -235,7 +235,6 @@ GameObject:
   - component: {fileID: 304177297}
   - component: {fileID: 304177296}
   - component: {fileID: 304177300}
-  - component: {fileID: 304177301}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Player
@@ -277,18 +276,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0039990246}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 0.16}
+    oldSize: {x: 4.19, y: 2.88}
     newSize: {x: 8, y: 8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19, y: 0.15200195}
+  m_Size: {x: 3.8, y: 2.6}
   m_EdgeRadius: 0
 --- !u!212 &304177298
 SpriteRenderer:
@@ -330,7 +329,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3158056009635202764, guid: e7d9ac19d04d054478c924008f98d385, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e0d88cc164410447ab31b2f3fe294c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -349,8 +348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304177295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.51, y: 1.24, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalPosition: {x: -2.95, y: -3, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.50911105, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -368,25 +367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 10
---- !u!95 &304177301
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304177295}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 898e65c14176a054eb8bc610ec7e842c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  standard: {fileID: 21300000, guid: 6e0d88cc164410447ab31b2f3fe294c7, type: 3}
+  crouch: {fileID: 21300000, guid: f4bbbede13465154c9045f35ea5fdd98, type: 3}
 --- !u!1 &343597175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,6 +1379,7 @@ MonoBehaviour:
   - {fileID: 6088122564348225380, guid: 12e94f82ccb9e7540b3eedd2185ce406, type: 3}
   - {fileID: 7811346171054608455, guid: 266b0cb9cc8cb7c48bddd4dbc56a1b2a, type: 3}
   - {fileID: 6109186123229290724, guid: 3fa10c49296216e48b7159f2d0508126, type: 3}
+  - {fileID: 6569259163326143854, guid: 6bd35a6d698a2ed439b2f030b2da4ce2, type: 3}
   minTime: 2
   maxTime: 4
 --- !u!114 &1701290451

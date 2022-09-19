@@ -10,11 +10,17 @@ using static UnityEngine.InputSystem.InputAction;
 public class PlayerBehavior : MonoBehaviour
 {
     public float jumpForce = 200f;
+    public Sprite standard;
+    public Sprite crouch;
     private Rigidbody2D rb;
     private PlayerActions pa;
     private HealthManager hm;
     private DisplayScore ds;
+    private SpriteRenderer sr;
+    private BoxCollider2D bc;
+
     bool canJump = true;
+    bool crouching = false;
     // Start is called before the first frame update
     void Awake()
     {
@@ -22,6 +28,8 @@ public class PlayerBehavior : MonoBehaviour
         pa = new PlayerActions();
         hm = GameObject.FindObjectOfType<HealthManager>();
         ds = GameObject.FindObjectOfType<DisplayScore>();
+        sr = GetComponent<SpriteRenderer>();
+        bc = GetComponent<BoxCollider2D>();
 
     }
     private void OnEnable()
@@ -29,8 +37,7 @@ public class PlayerBehavior : MonoBehaviour
         Debug.Log("Enable");
         
         pa.Default.Jump.performed += _ => Jump();
-        pa.Default.Crouch.performed += ctx => Crouch(ctx);
-        pa.Default.Crouch.canceled += ctx => Crouch(ctx);
+        pa.Default.Crouch.performed += _ => Crouch();
         pa.Enable();
         
     }
@@ -42,23 +49,21 @@ public class PlayerBehavior : MonoBehaviour
     private void Jump()
     {
         Debug.Log("jump");
-        if(canJump)
+        if(canJump && !crouching)
         {
             rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
         }
     }
 
-    private void Crouch(CallbackContext ctx)
+    private void Crouch()
     {
-        Debug.Log("Crouch");
-        if (ctx.performed)
+        if (!crouching)
         {
-
-        }
-        if (ctx.canceled)
-        {
-
+            crouching = true;
+            bc.size = new Vector2(4.4f, 1.7f);
+            sr.sprite = crouch;
+            StartCoroutine(Uncrouch());
         }
     }
 
@@ -94,5 +99,13 @@ public class PlayerBehavior : MonoBehaviour
         }
         Destroy(collision.gameObject.transform.parent.gameObject);
 
+    }
+
+    IEnumerator Uncrouch()
+    {
+        yield return new WaitForSeconds(1f);
+        crouching = false;
+        bc.size = new Vector2(3.8f, 2.6f);
+        sr.sprite = standard;
     }
 }
