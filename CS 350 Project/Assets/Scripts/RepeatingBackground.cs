@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Josh Bonovich
+//Project 2
+//This script is to control the background and will later also be used for obstacles via inheritence 
 public class RepeatingBackground : MonoBehaviour
 {
     public float scrollSpeed;

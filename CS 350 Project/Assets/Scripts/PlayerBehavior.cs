@@ -4,17 +4,24 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.InputSystem.InputAction;
 
+//Josh Bonovich
+//Project 2
+//This script is to control the player's movement 
 public class PlayerBehavior : MonoBehaviour
 {
     public float jumpForce = 200f;
     private Rigidbody2D rb;
     private PlayerActions pa;
+    private HealthManager hm;
+    private DisplayScore ds;
     bool canJump = true;
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         pa = new PlayerActions();
+        hm = GameObject.FindObjectOfType<HealthManager>();
+        ds = GameObject.FindObjectOfType<DisplayScore>();
 
     }
     private void OnEnable()
@@ -67,5 +74,25 @@ public class PlayerBehavior : MonoBehaviour
                 canJump = true;
             }
         }
+
+      
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //if hitting an obstacle
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            hm.TakeDamage();
+            Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+        }
+        //if hitting a collectable
+        if (collision.gameObject.CompareTag("Collectable"))
+        {
+            ds.score += 100;
+            Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+        }
+        Destroy(collision.gameObject.transform.parent.gameObject);
+
     }
 }

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - DisplayScoreText
   - HealthSystem
+  - Obstacle
+  - Collectable
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,71 @@
+{
+    "name": "ControllerActions",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "1e4d5e12-7624-44fa-9170-943aca1c04f1",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "86b3037b-7165-4944-9777-d2c780b4807d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "c0017c5b-8669-4cb3-93d0-b91fff0e36d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ForceQuit",
+                    "type": "Button",
+                    "id": "b4ccf551-dddd-4a90-8023-f4e9b3b32dd4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "92f4ade6-a21e-4aad-a400-c57ec5c801c1",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb988b84-47a9-48af-9da5-74599f5140ac",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "754317a4-e7d6-41a0-9486-8d73d28fae02",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForceQuit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -22,6 +22,14 @@ public class HealthManager : MonoBehaviour
     public bool gameOver = false;
 
     public GameObject gameOverText;
+    //Edits by Josh Bonovich tagged with "ND"
+    public Text goText;
+
+    //ND
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
 
     void Update()
     {
@@ -59,12 +67,16 @@ public class HealthManager : MonoBehaviour
         {
             gameOver = true;
             gameOverText.SetActive(true);
-
+            //ND
+            goText.text = "Game Over!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to quit";
+            Time.timeScale = 0;
             //Press R to restart if game is over
-            if (Input.GetKeyDown(KeyCode.R))
+            //ND
+            /*if (Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+            */
         }
 
     }
@@ -72,6 +84,31 @@ public class HealthManager : MonoBehaviour
     public void TakeDamage()
     {
         health--;
+    }
+
+    //ND to work with new input system
+    void OnRestart()
+    {
+        if (gameOver)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
+    void OnQuit()
+    {
+        if(gameOver)
+        {
+            Application.Quit();
+            Debug.Log("Quitting");
+
+        }
+    }
+
+    void OnForceQuit()
+    {
+        Application.Quit();
+        Debug.Log("Force Quitting");
     }
 
 }
