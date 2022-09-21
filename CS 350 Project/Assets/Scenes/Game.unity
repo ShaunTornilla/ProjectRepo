@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f84ff1fd3e41b74baf533757399ed78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 5
+  scrollSpeed: 4
   ScrollWidth: 17.735
 --- !u!1 &519420028
 GameObject:
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f84ff1fd3e41b74baf533757399ed78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 5
+  scrollSpeed: 4
   ScrollWidth: 17.735
 --- !u!212 &1151778484
 SpriteRenderer:
@@ -1380,6 +1380,9 @@ MonoBehaviour:
   - {fileID: 5708836434663121456, guid: ef847e2844234c04ab74c9d2123b36a2, type: 3}
   - {fileID: 8539390289205948943, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
   - {fileID: 5074667811404152354, guid: 973156333c5347e4cb17eba653911af7, type: 3}
+  - {fileID: 8935798786747540330, guid: 399151799c16c1e4fa3b9d7087c79fb8, type: 3}
+  - {fileID: 1153917799724823721, guid: 2916b4b2c9bffce4383da8a0c37f79ea, type: 3}
+  - {fileID: 1332871269652148142, guid: 2ab4076b75992df4d96384b702713817, type: 3}
   minTime: 2
   maxTime: 4
 --- !u!114 &1701290451
