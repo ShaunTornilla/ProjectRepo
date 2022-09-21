@@ -1377,9 +1377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnables:
   - {fileID: 6088122564348225380, guid: 12e94f82ccb9e7540b3eedd2185ce406, type: 3}
-  - {fileID: 7811346171054608455, guid: 266b0cb9cc8cb7c48bddd4dbc56a1b2a, type: 3}
-  - {fileID: 6109186123229290724, guid: 3fa10c49296216e48b7159f2d0508126, type: 3}
-  - {fileID: 6569259163326143854, guid: 6bd35a6d698a2ed439b2f030b2da4ce2, type: 3}
+  - {fileID: 5708836434663121456, guid: ef847e2844234c04ab74c9d2123b36a2, type: 3}
+  - {fileID: 8539390289205948943, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
+  - {fileID: 5074667811404152354, guid: 973156333c5347e4cb17eba653911af7, type: 3}
   minTime: 2
   maxTime: 4
 --- !u!114 &1701290451
@@ -1512,7 +1512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 299, y: -193}
+  m_AnchoredPosition: {x: 299, y: -193.00003}
   m_SizeDelta: {x: -612.96783, y: -161.77345}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025574088
