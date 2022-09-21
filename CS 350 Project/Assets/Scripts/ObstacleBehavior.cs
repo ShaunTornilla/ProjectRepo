@@ -16,4 +16,12 @@ public class ObstacleBehavior : RepeatingBackground
         }
         Destroy(gameObject);
     }
+
+    private void Update()
+    {
+        if(transform.childCount == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }

@@ -58,7 +58,7 @@ public class PlayerBehavior : MonoBehaviour
 
     private void Crouch()
     {
-        if (!crouching)
+        if (!crouching && canJump)
         {
             crouching = true;
             bc.size = new Vector2(4.4f, 1.7f);
@@ -103,7 +103,7 @@ public class PlayerBehavior : MonoBehaviour
 
     IEnumerator Uncrouch()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         crouching = false;
         bc.size = new Vector2(3.8f, 2.6f);
         sr.sprite = standard;
