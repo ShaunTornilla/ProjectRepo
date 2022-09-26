@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8539390289205948942}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &4492247827446395255
 BoxCollider2D:
@@ -88,7 +88,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8539390289205948942}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8539390288380453146
 SpriteRenderer:
@@ -214,8 +214,8 @@ Transform:
   m_LocalPosition: {x: 3.661937, y: 0, z: -38.077873}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8539390288380453144}
   - {fileID: 2889074171800158840}
+  - {fileID: 8539390288380453144}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -231,5 +231,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6256e39afaafd3742af8b21b1dbfbb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 7
-  ScrollWidth: 10
+  scrollSpeed: 10
+  ScrollWidth: 14

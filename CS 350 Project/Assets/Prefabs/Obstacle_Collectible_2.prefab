@@ -28,8 +28,8 @@ Transform:
   m_LocalPosition: {x: -3.1, y: -0.6273473, z: -39.098667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4078336167924445063}
   - {fileID: 3029580700940506128}
+  - {fileID: 4078336167924445063}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6256e39afaafd3742af8b21b1dbfbb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 7
-  ScrollWidth: 10
+  scrollSpeed: 10
+  ScrollWidth: 14
 --- !u!1001 &6667924090901915166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92,7 +92,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8539390289205948942, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8539390289205948942, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -159,7 +159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6355733313144861239, guid: 973156333c5347e4cb17eba653911af7, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6355733313144861239, guid: 973156333c5347e4cb17eba653911af7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

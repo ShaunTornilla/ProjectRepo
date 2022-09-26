@@ -8,6 +8,7 @@ TagManager:
   - HealthSystem
   - Obstacle
   - Collectable
+  - End
   layers:
   - Default
   - TransparentFX

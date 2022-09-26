@@ -97,6 +97,14 @@ public class PlayerBehavior : MonoBehaviour
             ds.score += 100;
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
         }
+        //if hitting the finish
+        if(collision.gameObject.CompareTag("End"))
+        {
+            ds.score += 2000;
+            Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+            hm.win = true;
+            hm.gameOver = true;
+        }
         Destroy(collision.gameObject.transform.parent.gameObject);
 
     }

@@ -20,8 +20,10 @@ public class HealthManager : MonoBehaviour
     public Sprite emptyHeart;
 
     public bool gameOver = false;
+    public bool win = false;
 
     public GameObject gameOverText;
+    public GameObject newHighScoreText;
     //Edits by Josh Bonovich tagged with "ND"
     public Text goText;
 
@@ -66,10 +68,10 @@ public class HealthManager : MonoBehaviour
         if (health <= 0)
         {
             gameOver = true;
-            gameOverText.SetActive(true);
+            
             //ND
-            goText.text = "Game Over!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to return to the main menu";
-            Time.timeScale = 0;
+            
+            
             //Press R to restart if game is over
             //ND
             /*if (Input.GetKeyDown(KeyCode.R))
@@ -77,6 +79,26 @@ public class HealthManager : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
             */
+        }
+
+        if(gameOver)
+        {
+            Time.timeScale = 0;
+            if(win)
+            {
+                goText.text = "You Win!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to return to the main menu";
+            }
+            else
+            {
+                goText.text = "Game Over!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to return to the main menu";
+            }
+
+            if (PlayerPrefs.GetInt("HighScore") < GameObject.FindObjectOfType<DisplayScore>().score)
+            {
+                newHighScoreText.SetActive(true);
+                PlayerPrefs.SetInt("HighScore", GameObject.FindObjectOfType<DisplayScore>().score);
+            }
+            gameOverText.SetActive(true);
         }
 
     }
