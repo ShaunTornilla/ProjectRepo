@@ -91,14 +91,20 @@ public class PlayerBehavior : MonoBehaviour
             hm.TakeDamage();
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
         }
-        //if hitting a collectable
-        if (collision.gameObject.CompareTag("Collectable"))
+        //if hitting a yellow collectable
+        if (collision.gameObject.CompareTag("YellowCollectible"))
         {
             ds.score += 100;
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
         }
+        //if hitting a purple collectable
+        if (collision.gameObject.CompareTag("PurpleCollectible"))
+        {
+            ds.score += 300;
+            Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+        }
         //if hitting the finish
-        if(collision.gameObject.CompareTag("End"))
+        if (collision.gameObject.CompareTag("End"))
         {
             ds.score += 2000;
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);

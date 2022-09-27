@@ -664,7 +664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f84ff1fd3e41b74baf533757399ed78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 8
+  scrollSpeed: 5
   ScrollWidth: 17.735
 --- !u!1 &519420028
 GameObject:
@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f84ff1fd3e41b74baf533757399ed78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 8
+  scrollSpeed: 5
   ScrollWidth: 17.735
 --- !u!212 &1151778484
 SpriteRenderer:
@@ -1561,7 +1561,11 @@ MonoBehaviour:
   - {fileID: 5074667811404152354, guid: 973156333c5347e4cb17eba653911af7, type: 3}
   - {fileID: 8935798786747540330, guid: 399151799c16c1e4fa3b9d7087c79fb8, type: 3}
   - {fileID: 1153917799724823721, guid: 2916b4b2c9bffce4383da8a0c37f79ea, type: 3}
-  end: {fileID: 2698883007773686387, guid: c41da51521ef81a45bce54ec942580ca, type: 3}
+  - {fileID: 2799982238779810976, guid: c2b9ece8532133d4abea33612f6d2cef, type: 3}
+  - {fileID: 6255640597479774334, guid: faa07cc99fd240e40b9f2ea477c5dca4, type: 3}
+  - {fileID: 2209522069763484619, guid: 6d6a82a8800d807438840323ea098e8d, type: 3}
+  - {fileID: 9004023672265435359, guid: d842c93ebc1cb0f499e073c657aa78dd, type: 3}
+  end: {fileID: 6503772200919815774, guid: 4267c472c29439547825c456e67e23cd, type: 3}
   minTime: 2
   maxTime: 4
   totalTime: 120
@@ -1825,7 +1829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 376.1, y: -193}
+  m_AnchoredPosition: {x: 376.1, y: -193.00003}
   m_SizeDelta: {x: -612.96783, y: -161.77345}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025574088
