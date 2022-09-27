@@ -1564,7 +1564,6 @@ MonoBehaviour:
   - {fileID: 2799982238779810976, guid: c2b9ece8532133d4abea33612f6d2cef, type: 3}
   - {fileID: 6255640597479774334, guid: faa07cc99fd240e40b9f2ea477c5dca4, type: 3}
   - {fileID: 2209522069763484619, guid: 6d6a82a8800d807438840323ea098e8d, type: 3}
-  - {fileID: 9004023672265435359, guid: d842c93ebc1cb0f499e073c657aa78dd, type: 3}
   end: {fileID: 6503772200919815774, guid: 4267c472c29439547825c456e67e23cd, type: 3}
   minTime: 2
   maxTime: 4
