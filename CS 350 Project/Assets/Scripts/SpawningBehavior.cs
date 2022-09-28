@@ -7,7 +7,10 @@ using UnityEngine;
 //Ability to spawn obstacles randomly
 public class SpawningBehavior : MonoBehaviour
 {
-    public GameObject[] spawnables;
+    //public GameObject[] spawnables;
+    public GameObject[] obstacles;
+    public GameObject[] obstacleWithCollectable;
+    public GameObject[] collectable;
     public GameObject end;
     public float minTime;
     public float maxTime;
@@ -25,8 +28,23 @@ public class SpawningBehavior : MonoBehaviour
 
     private void Spawn()
     {
+        int roll = Random.Range(0, 10);
         if(currentTime<totalTime)
-        Instantiate(spawnables[Random.Range(0, spawnables.Length)], transform.position, Quaternion.identity);
+        {
+            if (roll >= 0 && roll < 2)
+            {
+                Instantiate(obstacles[Random.Range(0, obstacles.Length)], transform.position, Quaternion.identity);
+            }
+            else if (roll >= 2 && roll < 8)
+            {
+                Instantiate(obstacleWithCollectable[Random.Range(0, obstacleWithCollectable.Length)], transform.position, Quaternion.identity);
+            }
+            else if (roll >= 8 && roll < 10)
+            {
+                Instantiate(collectable[Random.Range(0, collectable.Length)], transform.position, Quaternion.identity);
+            }
+        }
+        //Instantiate(spawnables[Random.Range(0, spawnables.Length)], transform.position, Quaternion.identity);
 
     }
 
