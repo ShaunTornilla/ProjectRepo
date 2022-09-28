@@ -371,6 +371,12 @@ MonoBehaviour:
   standard: {fileID: 21300000, guid: 6e0d88cc164410447ab31b2f3fe294c7, type: 3}
   crouch: {fileID: 21300000, guid: f4bbbede13465154c9045f35ea5fdd98, type: 3}
   chingSound: {fileID: 8300000, guid: 8442127bfca2d5f48b6b33d945012f85, type: 3}
+  winSound: {fileID: 8300000, guid: dfb790ba548168b49a55a798bbaa15b0, type: 3}
+  backgroundCheers: {fileID: 8300000, guid: 3b2e7273cf84ee0478837d95e209ee10, type: 3}
+  collectibleSound: {fileID: 8300000, guid: b5038b440f13e714ea5401cae4b79c1e, type: 3}
+  takeDamage: {fileID: 8300000, guid: 32b386a8fad7f394a9f9ffa04e3a62b1, type: 3}
+  oof: {fileID: 8300000, guid: 5441fabd3742c164985ed6e365d37700, type: 3}
+  catHiss: {fileID: 8300000, guid: 12978bbbe687bc148a6dd0f22c134578, type: 3}
 --- !u!82 &304177301
 AudioSource:
   m_ObjectHideFlags: 0

@@ -21,7 +21,13 @@ public class PlayerBehavior : MonoBehaviour
 
     private AudioSource playerAudio;
 
-    public AudioClip chingSound; 
+    public AudioClip chingSound;
+    public AudioClip winSound;
+    public AudioClip backgroundCheers;
+    public AudioClip collectibleSound;
+    public AudioClip takeDamage;
+    public AudioClip oof;
+    public AudioClip catHiss;
 
     bool canJump = true;
     bool crouching = false;
@@ -98,18 +104,30 @@ public class PlayerBehavior : MonoBehaviour
         {
             hm.TakeDamage();
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+
+            playerAudio.PlayOneShot(takeDamage, 1f);
+            playerAudio.PlayOneShot(oof, 2f);
+
+            if(hm.health == 0)
+            {
+                playerAudio.PlayOneShot(catHiss, 1f);
+            }
         }
         //if hitting a yellow collectable
         if (collision.gameObject.CompareTag("YellowCollectible"))
         {
             ds.score += 100;
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+
+            playerAudio.PlayOneShot(collectibleSound, 1f);
         }
         //if hitting a purple collectable
         if (collision.gameObject.CompareTag("PurpleCollectible"))
         {
             ds.score += 300;
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
+
+            playerAudio.PlayOneShot(collectibleSound, 1f);
         }
         //if hitting the finish
         if (collision.gameObject.CompareTag("End"))
@@ -118,6 +136,9 @@ public class PlayerBehavior : MonoBehaviour
             Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), collision);
             hm.win = true;
             hm.gameOver = true;
+
+            playerAudio.PlayOneShot(winSound, .3f);
+            playerAudio.PlayOneShot(backgroundCheers, 1f);
         }
         Destroy(collision.gameObject.transform.parent.gameObject);
 
