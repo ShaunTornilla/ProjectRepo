@@ -19,6 +19,10 @@ public class PlayerBehavior : MonoBehaviour
     private SpriteRenderer sr;
     private BoxCollider2D bc;
 
+    private AudioSource playerAudio;
+
+    public AudioClip chingSound; 
+
     bool canJump = true;
     bool crouching = false;
     // Start is called before the first frame update
@@ -30,6 +34,8 @@ public class PlayerBehavior : MonoBehaviour
         ds = GameObject.FindObjectOfType<DisplayScore>();
         sr = GetComponent<SpriteRenderer>();
         bc = GetComponent<BoxCollider2D>();
+        playerAudio = GetComponent<AudioSource>();
+
 
     }
     private void OnEnable()
@@ -53,6 +59,8 @@ public class PlayerBehavior : MonoBehaviour
         {
             rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
+
+            playerAudio.PlayOneShot(chingSound, 1f);
         }
     }
 
