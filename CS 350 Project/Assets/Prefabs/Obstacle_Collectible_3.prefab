@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: 10
-  ScrollWidth: 14
+  ScrollWidth: 18
 --- !u!1001 &2799982238268013660
 PrefabInstance:
   m_ObjectHideFlags: 0
