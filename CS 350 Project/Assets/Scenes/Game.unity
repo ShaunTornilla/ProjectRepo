@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 304177296}
   - component: {fileID: 304177300}
   - component: {fileID: 304177301}
+  - component: {fileID: 304177302}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Player
@@ -277,18 +278,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.20434752}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.19, y: 2.88}
+    oldSize: {x: 4.72, y: 2.06}
     newSize: {x: 8, y: 8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.8, y: 2.6}
+  m_Size: {x: 3.8, y: 2.191305}
   m_EdgeRadius: 0
 --- !u!212 &304177298
 SpriteRenderer:
@@ -350,7 +351,7 @@ Transform:
   m_GameObject: {fileID: 304177295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.91, y: -3, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.50911105, z: 1}
+  m_LocalScale: {x: 0.63945, y: 0.6511021, z: 1.2789}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -473,6 +474,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &304177302
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304177295}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2937376d14988248b50cc1d6787cb91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &343597175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1197,36 @@ RectTransform:
   m_AnchoredPosition: {x: -0.0000076293945, y: -144.7}
   m_SizeDelta: {x: 445.92426, y: 246.07323}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &761060791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 761060792}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &761060792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761060791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.662342, y: -1.613153, z: -39.09346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &809287860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,21 +1805,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 029044515ed01a64d8279956a0e90130, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnables:
-  - {fileID: 1332871269652148142, guid: 2ab4076b75992df4d96384b702713817, type: 3}
-  - {fileID: 5708836434663121456, guid: ef847e2844234c04ab74c9d2123b36a2, type: 3}
-  - {fileID: 8539390289205948943, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
-  - {fileID: 5074667811404152354, guid: 973156333c5347e4cb17eba653911af7, type: 3}
-  - {fileID: 8935798786747540330, guid: 399151799c16c1e4fa3b9d7087c79fb8, type: 3}
-  - {fileID: 1153917799724823721, guid: 2916b4b2c9bffce4383da8a0c37f79ea, type: 3}
-  - {fileID: 2799982238779810976, guid: c2b9ece8532133d4abea33612f6d2cef, type: 3}
-  - {fileID: 6255640597479774334, guid: faa07cc99fd240e40b9f2ea477c5dca4, type: 3}
-  - {fileID: 2209522069763484619, guid: 6d6a82a8800d807438840323ea098e8d, type: 3}
   obstacles:
   - {fileID: 5708836434663121456, guid: ef847e2844234c04ab74c9d2123b36a2, type: 3}
   - {fileID: 8539390289205948943, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
   obstacleWithCollectable:
-  - {fileID: 8539390289205948943, guid: 534a3a13c78e127459a921b7ad15e6ff, type: 3}
+  - {fileID: 7075785837311724917, guid: 995a281973634ff4db3ee81eefcadc62, type: 3}
   - {fileID: 1153917799724823721, guid: 2916b4b2c9bffce4383da8a0c37f79ea, type: 3}
   - {fileID: 1332871269652148142, guid: 2ab4076b75992df4d96384b702713817, type: 3}
   - {fileID: 2799982238779810976, guid: c2b9ece8532133d4abea33612f6d2cef, type: 3}
@@ -2042,7 +2082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 376.1, y: -193}
+  m_AnchoredPosition: {x: 376.1, y: -193.00003}
   m_SizeDelta: {x: -612.96783, y: -161.77345}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025574088

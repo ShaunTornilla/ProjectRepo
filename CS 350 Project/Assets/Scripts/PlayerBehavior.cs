@@ -20,7 +20,7 @@ public class PlayerBehavior : MonoBehaviour
     private BoxCollider2D bc;
 
     private AudioSource playerAudio;
-
+    
     public AudioClip chingSound;
     public AudioClip winSound;
     public AudioClip backgroundCheers;
@@ -28,6 +28,9 @@ public class PlayerBehavior : MonoBehaviour
     public AudioClip takeDamage;
     public AudioClip oof;
     public AudioClip catHiss;
+
+    public Animator playerAnimator;
+
 
     bool canJump = true;
     bool crouching = false;

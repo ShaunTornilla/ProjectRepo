@@ -1,34 +1,19 @@
 fileFormatVersion: 2
-guid: e7d9ac19d04d054478c924008f98d385
+guid: a25e9f566a8c6f340857f31ae7b2b46f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3158056009635202764
-    second: cat_0_run_0
+      213: 4815444566731013906
+    second: Cat_Animation_0
   - first:
-      213: 709733862569697528
-    second: cat_0_run_1
+      213: -8221968424040774062
+    second: Cat_Animation_1
   - first:
-      213: -6884249505293754102
-    second: cat_0_run_2
+      213: 3255427580659967544
+    second: Cat_Animation_2
   - first:
-      213: 3543652163713043166
-    second: cat_0_run_3
-  - first:
-      213: -3633139495075124740
-    second: cat_0_run_4
-  - first:
-      213: 2216627007456987362
-    second: cat_0_run_5
-  - first:
-      213: -6820611262385981504
-    second: cat_0_run_6
-  - first:
-      213: -4031016512701036959
-    second: cat_0_run_7
-  - first:
-      213: -5238431273204027796
-    second: cat_0_run_8
+      213: 7907370271737893930
+    second: Cat_Animation_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -93,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,169 +101,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cat_0_run_0
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc6081b653ba3db20800000000000000
-      internalID: 3158056009635202764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_1
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f0688b003b79d900800000000000000
-      internalID: 709733862569697528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_2
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a01aecb9c8b3670a0800000000000000
-      internalID: -6884249505293754102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_3
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eda09a92ed49d2130800000000000000
-      internalID: 3543652163713043166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_4
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf9ea90e0ee749dc0800000000000000
-      internalID: -3633139495075124740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_5
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e8c203e48a03ce10800000000000000
-      internalID: 2216627007456987362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_6
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 0
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c7747aa1325851a0800000000000000
-      internalID: -6820611262385981504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_0_run_7
+      name: Cat_Animation_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 19
-        height: 16
+        width: 280
+        height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 27, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f3693f155e3d240800000000000000
+      internalID: 4815444566731013906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Animation_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 21
+        width: 277
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16688b4c6d3fe08c0800000000000000
-      internalID: -4031016512701036959
+      spriteID: 256429ab743b5ed80800000000000000
+      internalID: -8221968424040774062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Animation_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 17
+        width: 273
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8362f39f22a9d2d20800000000000000
+      internalID: 3255427580659967544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Animation_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 13
+        width: 279
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24db6afd5f9cbd60800000000000000
+      internalID: 7907370271737893930
       vertices: []
       indices: 
       edges: []
