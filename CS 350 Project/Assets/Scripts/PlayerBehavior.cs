@@ -18,6 +18,7 @@ public class PlayerBehavior : MonoBehaviour
     private DisplayScore ds;
     private SpriteRenderer sr;
     private BoxCollider2D bc;
+    private Animator am;
 
     private AudioSource playerAudio;
     
@@ -43,6 +44,7 @@ public class PlayerBehavior : MonoBehaviour
         ds = GameObject.FindObjectOfType<DisplayScore>();
         sr = GetComponent<SpriteRenderer>();
         bc = GetComponent<BoxCollider2D>();
+        am = GetComponent<Animator>();
         playerAudio = GetComponent<AudioSource>();
 
 
@@ -80,6 +82,7 @@ public class PlayerBehavior : MonoBehaviour
             crouching = true;
             bc.size = new Vector2(4.4f, 1.7f);
             sr.sprite = crouch;
+            am.SetBool("Crouching", true);
             StartCoroutine(Uncrouch());
         }
     }
@@ -153,5 +156,6 @@ public class PlayerBehavior : MonoBehaviour
         crouching = false;
         bc.size = new Vector2(3.8f, 2.6f);
         sr.sprite = standard;
+        am.SetBool("Crouching", false);
     }
 }
