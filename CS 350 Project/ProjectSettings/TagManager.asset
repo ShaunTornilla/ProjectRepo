@@ -11,6 +11,10 @@ TagManager:
   - PurpleCollectible
   - YellowCollectible
   - Collectable
+  - JumpTutorial
+  - CrouchingTutorial
+  - EndTutorial
+  - CollectableTutorial
   layers:
   - Default
   - TransparentFX

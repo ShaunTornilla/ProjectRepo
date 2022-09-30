@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Josh Bonovich
+//Project 2
+//This script controlls the automated jumping cat in the tutorial menu
 public class JumpTutorialVisual : MonoBehaviour
 {
     private float jumpforce = 10f;

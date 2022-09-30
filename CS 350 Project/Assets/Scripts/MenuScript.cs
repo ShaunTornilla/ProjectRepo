@@ -7,6 +7,7 @@ public class MenuScript : MonoBehaviour
 {
     public GameObject howToPlayMenu;
     public GameObject mainMenu;
+    public GameObject playTutorialMenu;
 
     public void Start()
     {
@@ -14,7 +15,8 @@ public class MenuScript : MonoBehaviour
     }
     public void Begin()
     {
-        SceneManager.LoadScene("Game");
+        mainMenu.SetActive(false);
+        playTutorialMenu.SetActive(true);
     }
     public void HowToPlay()
     {
@@ -30,5 +32,15 @@ public class MenuScript : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quitting");
+    }
+
+    public void YesTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
+    public void NoTutorial()
+    {
+        SceneManager.LoadScene("Game");
     }
 }
