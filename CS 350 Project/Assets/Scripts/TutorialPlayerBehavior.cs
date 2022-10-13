@@ -112,7 +112,7 @@ public class TutorialPlayerBehavior : MonoBehaviour
 
     IEnumerator Uncrouch()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         crouching = false;
         bc.size = new Vector2(3.8f, 2.6f);
         am.SetBool("Crouching", false);

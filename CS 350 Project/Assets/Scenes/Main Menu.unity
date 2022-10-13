@@ -3136,7 +3136,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press S or down
 
-    to crouch'
+    to slide'
 --- !u!222 &2056262785
 CanvasRenderer:
   m_ObjectHideFlags: 0

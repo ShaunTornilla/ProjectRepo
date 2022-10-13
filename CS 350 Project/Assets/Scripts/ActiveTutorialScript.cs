@@ -42,7 +42,7 @@ public class ActiveTutorialScript : MonoBehaviour
         {   
             tp.TutorialCrouchAllowed = true;
             crouchTutorial = true;
-            tutorialText.text = "Along with jumping, could also crouch under an object to dodge it.\nPress S or down to crouch";
+            tutorialText.text = "Along with jumping, could also slide under an object to dodge it.\nPress S or down to slide";
             tutorialTextObject.SetActive(true);
             Time.timeScale = 0f;
         }
