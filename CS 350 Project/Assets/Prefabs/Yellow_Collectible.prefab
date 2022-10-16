@@ -119,6 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6355733313144861239}
   - component: {fileID: 4065363448872730871}
+  - component: {fileID: -3219604359111371964}
   m_Layer: 0
   m_Name: Yellow_Collectible
   m_TagString: Untagged
@@ -155,3 +156,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollSpeed: 10
   ScrollWidth: 14
+--- !u!114 &-3219604359111371964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074667811404152354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
