@@ -259,7 +259,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.5
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0668d861e6fee84287b435b61de6615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 12
   chingSound: {fileID: 8300000, guid: 8442127bfca2d5f48b6b33d945012f85, type: 3}
   winSound: {fileID: 8300000, guid: dfb790ba548168b49a55a798bbaa15b0, type: 3}
   backgroundCheers: {fileID: 8300000, guid: 3b2e7273cf84ee0478837d95e209ee10, type: 3}
@@ -2081,7 +2081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 376.1, y: -193.00003}
+  m_AnchoredPosition: {x: 376.1, y: -193}
   m_SizeDelta: {x: -612.96783, y: -161.77345}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025574088

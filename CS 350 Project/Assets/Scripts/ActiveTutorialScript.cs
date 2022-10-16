@@ -20,7 +20,7 @@ public class ActiveTutorialScript : MonoBehaviour
     {
         tp = GameObject.FindObjectOfType<TutorialPlayerBehavior>();
         basicTutorial = true;
-        tutorialText.text = "Your hearts on the bottom right signify your current hp, everytime you run into an obstacle you lose a heart.\nLose all 3 and its game over.\n Press space to continue";
+        tutorialText.text = "Your hearts on the bottom right signify your current hp, everytime you run into an obstacle you lose a heart.\n\nLose all 3 and its game over.\n\n Press space to continue";
         tutorialTextObject.SetActive(true);
         Time.timeScale = 0f;
     }
@@ -42,7 +42,7 @@ public class ActiveTutorialScript : MonoBehaviour
         {   
             tp.TutorialCrouchAllowed = true;
             crouchTutorial = true;
-            tutorialText.text = "Along with jumping, could also slide under an object to dodge it.\nPress S or down to slide";
+            tutorialText.text = "Along with jumping, could also slide under an object to dodge it.\n\nPress S or down to slide";
             tutorialTextObject.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -51,7 +51,7 @@ public class ActiveTutorialScript : MonoBehaviour
         {
             tp.TutorialJumpAllowed = true;
             jumpTutorial = true;
-            tutorialText.text = "Jump over obstacles to dodge them.\nPress W or up to jump";
+            tutorialText.text = "Jump over obstacles to dodge them.\n\nPress W or up to jump";
             tutorialTextObject.SetActive(true);
             
             Time.timeScale = 0f;
@@ -60,7 +60,7 @@ public class ActiveTutorialScript : MonoBehaviour
         if(collider.CompareTag("CollectableTutorial"))
         {
             basicTutorial = true;
-            tutorialText.text = "Collect cat food boxes to gain extra points.\nPress space to continue";
+            tutorialText.text = "Collect cat food boxes to gain extra points.\n\nPress space to continue";
             tutorialTextObject.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -69,7 +69,7 @@ public class ActiveTutorialScript : MonoBehaviour
         {
             basicTutorial = true;
             finishTutorial = true;
-            tutorialText.text = "The goal of the game is to reach your cat bed and collect as many collectables as you can on the way.\n Good Luck\nPress space to start the game";
+            tutorialText.text = "The goal of the game is to reach your cat bed and collect as many collectables as you can on the way.\n\n Good Luck\n\nPress space to start the game";
             tutorialTextObject.SetActive(true);
             Time.timeScale = 0f;
         }
