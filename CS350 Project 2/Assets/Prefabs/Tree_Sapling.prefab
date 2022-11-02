@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6928884182597395961}
   - component: {fileID: 8707528222627505661}
   m_Layer: 0
-  m_Name: Tree
+  m_Name: Tree_Sapling
   m_TagString: Ungrown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2487622136495176359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.4, y: -3.96, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,12 +73,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300024, guid: 4b00c4fcb1be91245b2dab5149c61c5d, type: 3}
+  m_Sprite: {fileID: 3340032095507117447, guid: 8fb51a3791154894fac2771e4b20e069,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.27083334, y: 0.16666667}
+  m_Size: {x: 0.87, y: 0.87}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -100,20 +101,21 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.27083334, y: 0.16666667}
-    newSize: {x: 0.27083334, y: 0.16666667}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.87, y: 0.87}
+    newSize: {x: 0.87, y: 0.87}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.13541667, y: 0.16666667}
-      - {x: -0.13541667, y: 0.041666668}
-      - {x: -0.09375, y: 0}
-      - {x: 0.13541667, y: 0}
-      - {x: 0.13541667, y: 0.16666667}
+    - - {x: -0.17201297, y: 0.31888655}
+      - {x: -0.23611833, y: -0.030263025}
+      - {x: -0.09375, y: -0.4487268}
+      - {x: 0.055255413, y: -0.44985455}
+      - {x: 0.22473034, y: -0.015964985}
+      - {x: 0.16879192, y: 0.31854057}
 --- !u!114 &8707528222627505661
 MonoBehaviour:
   m_ObjectHideFlags: 0
