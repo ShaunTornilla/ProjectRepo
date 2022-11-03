@@ -1,139 +1,751 @@
 fileFormatVersion: 2
-guid: 8fb51a3791154894fac2771e4b20e069
+guid: a78d47ba5c21a1949a0fb76cc48a92ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3898529755166009890
-    second: Nature_props_01_0
+      213: 4053305819023593497
+    second: Level_Props_0
   - first:
-      213: 1414768688058416095
-    second: Nature_props_01_1
+      213: 4389968240297580110
+    second: Level_Props_1
   - first:
-      213: 1894321607007528384
-    second: Nature_props_01_2
+      213: 7134194694431466021
+    second: Level_Props_2
   - first:
-      213: -6013803439407616292
-    second: Nature_props_01_3
+      213: 3240673454897679291
+    second: Level_Props_3
   - first:
-      213: -6910444156008308288
-    second: Nature_props_01_4
+      213: -8910131151897693536
+    second: Level_Props_4
   - first:
-      213: 2954950897823386039
-    second: Nature_props_01_5
+      213: 6016317424487309396
+    second: Level_Props_5
   - first:
-      213: -6905026858760714720
-    second: Nature_props_01_6
+      213: -2943993030158034740
+    second: Level_Props_6
   - first:
-      213: -2694973325817016481
-    second: Nature_props_01_7
+      213: -8264879691187230283
+    second: Level_Props_7
   - first:
-      213: 1160734976151833043
-    second: Nature_props_01_8
+      213: 1019571624669848383
+    second: Level_Props_8
   - first:
-      213: 4829928645310114386
-    second: Nature_props_01_9
+      213: -5369478879883136939
+    second: Level_Props_9
   - first:
-      213: -3431608867728435215
-    second: Nature_props_01_10
+      213: -4420972773002364176
+    second: Level_Props_10
   - first:
-      213: 4792240087041307686
-    second: Nature_props_01_11
+      213: 5039664415176204431
+    second: Level_Props_11
   - first:
-      213: -682835440121221220
-    second: Nature_props_01_12
+      213: -787825082891696282
+    second: Level_Props_12
   - first:
-      213: -3747105201569410530
-    second: Nature_props_01_13
+      213: -8544269659800567983
+    second: Level_Props_13
   - first:
-      213: 2864100972720691878
-    second: Nature_props_01_14
+      213: -5978656768670956819
+    second: Level_Props_14
   - first:
-      213: 8454680781399133512
-    second: Nature_props_01_15
+      213: 3444261868236025783
+    second: Level_Props_15
   - first:
-      213: -3258925790284622917
-    second: Nature_props_01_16
+      213: 3939907602980226993
+    second: Level_Props_16
   - first:
-      213: 777644401421326818
-    second: Nature_props_01_17
+      213: -8273841471453591661
+    second: Level_Props_17
   - first:
-      213: 4283427052853158982
-    second: Nature_props_01_18
+      213: 243935532213153296
+    second: Level_Props_18
   - first:
-      213: -6535320499154014688
-    second: Nature_props_01_19
+      213: 8821998689833419072
+    second: Level_Props_19
   - first:
-      213: -3261991466957389485
-    second: Nature_props_01_20
+      213: 7074411066857968538
+    second: Level_Props_20
   - first:
-      213: -4524594014719187892
-    second: Nature_props_01_21
+      213: 8554241493653155049
+    second: Level_Props_21
   - first:
-      213: 9097937587758459269
-    second: Nature_props_01_22
+      213: -515954105302802454
+    second: Level_Props_22
   - first:
-      213: 8594180769985887413
-    second: Nature_props_01_23
+      213: -6529813589633202449
+    second: Level_Props_23
   - first:
-      213: 5624612969857451632
-    second: Nature_props_01_24
+      213: 2398091973743753065
+    second: Level_Props_24
   - first:
-      213: -1496688925686365003
-    second: Nature_props_01_25
+      213: 3101312472240251087
+    second: Level_Props_25
   - first:
-      213: 2178483454435266809
-    second: Nature_props_01_26
+      213: -3896742084354353191
+    second: Level_Props_26
   - first:
-      213: -4001746386696757949
-    second: Nature_props_01_27
+      213: -573247614620534895
+    second: Level_Props_27
   - first:
-      213: -7087062367374830951
-    second: Nature_props_01_28
+      213: -4256477043138913673
+    second: Level_Props_28
   - first:
-      213: -1999418424058300274
-    second: Nature_props_01_29
+      213: -3676413451940638881
+    second: Level_Props_29
   - first:
-      213: 4968235071229758049
-    second: Nature_props_01_30
+      213: -3376419192128231040
+    second: Level_Props_30
   - first:
-      213: -1029220187505999013
-    second: Nature_props_01_31
+      213: 8963095925202002875
+    second: Level_Props_31
   - first:
-      213: -431383759574991763
-    second: Nature_props_01_32
+      213: -3755692747678174968
+    second: Level_Props_32
   - first:
-      213: 7255716236024796931
-    second: Nature_props_01_33
+      213: -8834441338054034946
+    second: Level_Props_33
   - first:
-      213: 108827590808026260
-    second: Nature_props_01_34
+      213: -5845532693094542004
+    second: Level_Props_34
   - first:
-      213: -8661997736390944031
-    second: Nature_props_01_35
+      213: -6985995932359429389
+    second: Level_Props_35
   - first:
-      213: -3819220882070082468
-    second: Nature_props_01_36
+      213: -3665520703171329830
+    second: Level_Props_36
   - first:
-      213: 5184075397452278445
-    second: Nature_props_01_37
+      213: 5946508269082408474
+    second: Level_Props_37
   - first:
-      213: -3065525269827713684
-    second: Nature_props_01_38
+      213: -6076436725908625011
+    second: Level_Props_38
   - first:
-      213: 1283964216059649769
-    second: Nature_props_01_39
+      213: -6413256411181402877
+    second: Level_Props_39
   - first:
-      213: 2510916838565284029
-    second: Nature_props_01_40
+      213: 2834996821383551222
+    second: Level_Props_40
   - first:
-      213: 3340032095507117447
-    second: Nature_props_01_41
+      213: -7617296794818330065
+    second: Level_Props_0
   - first:
-      213: 5740108128554148999
-    second: Nature_props_01_42
+      213: -2570598580175448814
+    second: Level_Props_1
   - first:
-      213: 8749904683623051353
-    second: Nature_props_01_43
+      213: 6118707433721612364
+    second: Level_Props_2
+  - first:
+      213: -1486680597825491747
+    second: Level_Props_3
+  - first:
+      213: -7962887808879968212
+    second: Level_Props_4
+  - first:
+      213: -6124543819337361645
+    second: Level_Props_5
+  - first:
+      213: -7470666305610045753
+    second: Level_Props_6
+  - first:
+      213: 5275069857105537645
+    second: Level_Props_7
+  - first:
+      213: 2196586228868273979
+    second: Level_Props_8
+  - first:
+      213: -3290443444972882425
+    second: Level_Props_9
+  - first:
+      213: 4002355592721639748
+    second: Level_Props_10
+  - first:
+      213: -6712408870679269687
+    second: Level_Props_11
+  - first:
+      213: 1133261007453529296
+    second: Level_Props_12
+  - first:
+      213: 4931098719002484212
+    second: Level_Props_13
+  - first:
+      213: 5024577314000805336
+    second: Level_Props_14
+  - first:
+      213: -7664281935937562272
+    second: Level_Props_15
+  - first:
+      213: 2365720902259456914
+    second: Level_Props_16
+  - first:
+      213: 5886607145080957278
+    second: Level_Props_17
+  - first:
+      213: 311900513109852643
+    second: Level_Props_18
+  - first:
+      213: 6043608612512114894
+    second: Level_Props_19
+  - first:
+      213: -5318791729851089577
+    second: Level_Props_20
+  - first:
+      213: -7268250931043311408
+    second: Level_Props_21
+  - first:
+      213: -8470183261556500273
+    second: Level_Props_22
+  - first:
+      213: 7289437759772147818
+    second: Level_Props_23
+  - first:
+      213: -4233458393407045091
+    second: Level_Props_24
+  - first:
+      213: -6946879942028112427
+    second: Level_Props_25
+  - first:
+      213: 4947498521401413315
+    second: Level_Props_26
+  - first:
+      213: 7502743426868959768
+    second: Level_Props_27
+  - first:
+      213: 6127567591346073413
+    second: Level_Props_28
+  - first:
+      213: 278016430741684906
+    second: Level_Props_29
+  - first:
+      213: 1651387877229675155
+    second: Level_Props_30
+  - first:
+      213: -6299161246934332565
+    second: Level_Props_31
+  - first:
+      213: 2823702462839101830
+    second: Level_Props_32
+  - first:
+      213: 6531673283640696744
+    second: Level_Props_33
+  - first:
+      213: 6481667010691307165
+    second: Level_Props_34
+  - first:
+      213: 6279814795218296149
+    second: Level_Props_35
+  - first:
+      213: -8672555850447150276
+    second: Level_Props_36
+  - first:
+      213: -583569397248137743
+    second: Level_Props_37
+  - first:
+      213: -3109595942373417653
+    second: Level_Props_38
+  - first:
+      213: -163938589471933680
+    second: Level_Props_39
+  - first:
+      213: 5816110616538175276
+    second: Level_Props_40
+  - first:
+      213: 6045601380549582046
+    second: Level_Props_41
+  - first:
+      213: 1188861931841309523
+    second: Level_Props_42
+  - first:
+      213: 2926330541042352918
+    second: Level_Props_43
+  - first:
+      213: -4384454058069819107
+    second: Level_Props_44
+  - first:
+      213: -4643469518953077400
+    second: Level_Props_45
+  - first:
+      213: -547592283540497945
+    second: Level_Props_46
+  - first:
+      213: -5537780410911888520
+    second: Level_Props_47
+  - first:
+      213: -1137300923967370758
+    second: Level_Props_48
+  - first:
+      213: 7124521935663262000
+    second: Level_Props_49
+  - first:
+      213: -3594561638618996649
+    second: Level_Props_50
+  - first:
+      213: -2659587291480616814
+    second: Level_Props_51
+  - first:
+      213: 7293846389744747432
+    second: Level_Props_52
+  - first:
+      213: -3612559108920237551
+    second: Level_Props_53
+  - first:
+      213: -4167910410652388359
+    second: Level_Props_54
+  - first:
+      213: 5686136084895015444
+    second: Level_Props_55
+  - first:
+      213: -2741014383289162094
+    second: Level_Props_56
+  - first:
+      213: 2764843782648305492
+    second: Level_Props_57
+  - first:
+      213: 7091311771263818799
+    second: Level_Props_58
+  - first:
+      213: -9151000882017824815
+    second: Level_Props_59
+  - first:
+      213: -4911020785374789965
+    second: Level_Props_60
+  - first:
+      213: -5459257519508880781
+    second: Level_Props_61
+  - first:
+      213: -401980040127565730
+    second: Level_Props_62
+  - first:
+      213: -4058521781439557217
+    second: Level_Props_63
+  - first:
+      213: 3226622983489522579
+    second: Level_Props_64
+  - first:
+      213: -4454645989641164904
+    second: Level_Props_65
+  - first:
+      213: -6084085451274203585
+    second: Level_Props_66
+  - first:
+      213: 930490018812169922
+    second: Level_Props_67
+  - first:
+      213: 5945258257039945379
+    second: Level_Props_68
+  - first:
+      213: -1759709080918488893
+    second: Level_Props_69
+  - first:
+      213: 8670447474127127449
+    second: Level_Props_70
+  - first:
+      213: -898591158999916147
+    second: Level_Props_71
+  - first:
+      213: -5263174521191544141
+    second: Level_Props_72
+  - first:
+      213: 7281675102194299329
+    second: Level_Props_73
+  - first:
+      213: -8616170702258832957
+    second: Level_Props_74
+  - first:
+      213: -2624503380150121825
+    second: Level_Props_75
+  - first:
+      213: 4530329090605543601
+    second: Level_Props_76
+  - first:
+      213: -6689361359167461181
+    second: Level_Props_77
+  - first:
+      213: 4060656125336137856
+    second: Level_Props_78
+  - first:
+      213: -8422906431655623988
+    second: Level_Props_79
+  - first:
+      213: -5206203858772256686
+    second: Level_Props_80
+  - first:
+      213: -2778122350568579908
+    second: Level_Props_81
+  - first:
+      213: -325513392090185384
+    second: Level_Props_82
+  - first:
+      213: 4037582541435876937
+    second: Level_Props_83
+  - first:
+      213: -4650083886273709933
+    second: Level_Props_84
+  - first:
+      213: 619035594902848345
+    second: Level_Props_85
+  - first:
+      213: -2590609222165176050
+    second: Level_Props_86
+  - first:
+      213: -5086845076507704869
+    second: Level_Props_87
+  - first:
+      213: -9011707233083879618
+    second: Level_Props_88
+  - first:
+      213: -2040011723833830976
+    second: Level_Props_89
+  - first:
+      213: 2970392862875726988
+    second: Level_Props_90
+  - first:
+      213: 4941157888820289071
+    second: Level_Props_91
+  - first:
+      213: 8637127989202350355
+    second: Level_Props_92
+  - first:
+      213: 2083041747422070044
+    second: Level_Props_93
+  - first:
+      213: -4091097415253607524
+    second: Level_Props_94
+  - first:
+      213: -6338439379518466014
+    second: Level_Props_95
+  - first:
+      213: -5399214169308286645
+    second: Level_Props_96
+  - first:
+      213: -2100317645417006439
+    second: Level_Props_97
+  - first:
+      213: 596228147218523639
+    second: Level_Props_98
+  - first:
+      213: -4107024665874392872
+    second: Level_Props_99
+  - first:
+      213: 8676050630048927675
+    second: Level_Props_100
+  - first:
+      213: 2534143594004330871
+    second: Level_Props_101
+  - first:
+      213: 1104911368876085571
+    second: Level_Props_102
+  - first:
+      213: 6697442884931420118
+    second: Level_Props_103
+  - first:
+      213: 6753036758366855181
+    second: Level_Props_104
+  - first:
+      213: 7088564948047337271
+    second: Level_Props_105
+  - first:
+      213: -5812204636808241341
+    second: Level_Props_106
+  - first:
+      213: -7719288372207796435
+    second: Level_Props_107
+  - first:
+      213: 1949242471569701690
+    second: Level_Props_108
+  - first:
+      213: -7655415486870931033
+    second: Level_Props_109
+  - first:
+      213: 1402488959328592794
+    second: Level_Props_110
+  - first:
+      213: 2069185173239836710
+    second: Level_Props_111
+  - first:
+      213: 1616351588799570128
+    second: Level_Props_112
+  - first:
+      213: 3583735998805327397
+    second: Level_Props_113
+  - first:
+      213: -4248483712691453641
+    second: Level_Props_114
+  - first:
+      213: 8186280741138250058
+    second: Level_Props_115
+  - first:
+      213: -7118503529457522917
+    second: Level_Props_116
+  - first:
+      213: -5777627915865359626
+    second: Level_Props_117
+  - first:
+      213: -8886928207959712011
+    second: Level_Props_118
+  - first:
+      213: 3634734898252033248
+    second: Level_Props_119
+  - first:
+      213: 604918218951558985
+    second: Level_Props_120
+  - first:
+      213: 4254834882693886095
+    second: Level_Props_121
+  - first:
+      213: 882007809231738510
+    second: Level_Props_122
+  - first:
+      213: 7141946634140625518
+    second: Level_Props_123
+  - first:
+      213: -7013649820669416856
+    second: Level_Props_124
+  - first:
+      213: 6597188096956081
+    second: Level_Props_125
+  - first:
+      213: -7804032022938998120
+    second: Level_Props_126
+  - first:
+      213: 4440429509816879965
+    second: Level_Props_127
+  - first:
+      213: 1519866961838683090
+    second: Level_Props_128
+  - first:
+      213: -7113725860845532038
+    second: Level_Props_129
+  - first:
+      213: 1871696939672150161
+    second: Level_Props_130
+  - first:
+      213: 6648694489036324728
+    second: Level_Props_131
+  - first:
+      213: 978430960926689531
+    second: Level_Props_132
+  - first:
+      213: -3462820544237421563
+    second: Level_Props_133
+  - first:
+      213: -8499179148885153751
+    second: Level_Props_134
+  - first:
+      213: -261636948580151924
+    second: Level_Props_135
+  - first:
+      213: 3187534059019299745
+    second: Level_Props_136
+  - first:
+      213: 827266445136205696
+    second: Level_Props_137
+  - first:
+      213: 5811208933141632542
+    second: Level_Props_138
+  - first:
+      213: -8488920271637685710
+    second: Level_Props_139
+  - first:
+      213: 2831453613437823848
+    second: Level_Props_140
+  - first:
+      213: 4740071760116346837
+    second: Level_Props_141
+  - first:
+      213: 5475481594920490949
+    second: Level_Props_142
+  - first:
+      213: -7707296410224170430
+    second: Level_Props_143
+  - first:
+      213: -1742574112412788315
+    second: Level_Props_144
+  - first:
+      213: 1041992059730344260
+    second: Level_Props_145
+  - first:
+      213: 5049827018992367867
+    second: Level_Props_146
+  - first:
+      213: 5256670655026549094
+    second: Level_Props_147
+  - first:
+      213: -4861213403476358443
+    second: Level_Props_148
+  - first:
+      213: -7348216430732878072
+    second: Level_Props_149
+  - first:
+      213: 3749042455571292756
+    second: Level_Props_150
+  - first:
+      213: 7441164579620782413
+    second: Level_Props_151
+  - first:
+      213: 3561819721013042270
+    second: Level_Props_152
+  - first:
+      213: 2074361524803997528
+    second: Level_Props_153
+  - first:
+      213: -1336241521854272327
+    second: Level_Props_154
+  - first:
+      213: 9207640222631100944
+    second: Level_Props_155
+  - first:
+      213: 3145923750433047898
+    second: Level_Props_156
+  - first:
+      213: 6543501117142347415
+    second: Level_Props_157
+  - first:
+      213: 1123416659227431781
+    second: Level_Props_158
+  - first:
+      213: 7784534731009444871
+    second: Level_Props_159
+  - first:
+      213: -8026467898072888746
+    second: Level_Props_160
+  - first:
+      213: -8544114001236114437
+    second: Level_Props_161
+  - first:
+      213: 8383007856074711683
+    second: Level_Props_162
+  - first:
+      213: 1321319550154781582
+    second: Level_Props_163
+  - first:
+      213: -4782609793661613915
+    second: Level_Props_164
+  - first:
+      213: -8620224912971893378
+    second: Level_Props_165
+  - first:
+      213: -7970062793131729362
+    second: Level_Props_166
+  - first:
+      213: -3955596557744133868
+    second: Level_Props_167
+  - first:
+      213: -6080746058713366142
+    second: Level_Props_168
+  - first:
+      213: 7701240540587629886
+    second: Level_Props_169
+  - first:
+      213: 7174292820173140336
+    second: Level_Props_170
+  - first:
+      213: -5265121228402085971
+    second: Level_Props_171
+  - first:
+      213: -8439483777351359901
+    second: Level_Props_172
+  - first:
+      213: -7279862630792915477
+    second: Level_Props_173
+  - first:
+      213: -4464914781673431752
+    second: Level_Props_174
+  - first:
+      213: -5968261227598521395
+    second: Level_Props_175
+  - first:
+      213: 7014967666174134471
+    second: Level_Props_176
+  - first:
+      213: 1469215609460186968
+    second: Level_Props_177
+  - first:
+      213: -7516303561649682583
+    second: Level_Props_178
+  - first:
+      213: 3856329008794762984
+    second: Level_Props_179
+  - first:
+      213: -3036460717980805511
+    second: Level_Props_180
+  - first:
+      213: 5283935340221604292
+    second: Level_Props_181
+  - first:
+      213: 6805475358392153107
+    second: Level_Props_182
+  - first:
+      213: -673450362175335054
+    second: Level_Props_183
+  - first:
+      213: 5937268595374165555
+    second: Level_Props_184
+  - first:
+      213: 8394241755263769349
+    second: Level_Props_185
+  - first:
+      213: 3897151900219124728
+    second: Level_Props_186
+  - first:
+      213: 1052363028294270850
+    second: Level_Props_187
+  - first:
+      213: -6424326976517258492
+    second: Level_Props_188
+  - first:
+      213: 6595147800038923835
+    second: Level_Props_189
+  - first:
+      213: -629254036711523932
+    second: Level_Props_190
+  - first:
+      213: -7833940517856644352
+    second: Level_Props_191
+  - first:
+      213: -9093224927586197776
+    second: Level_Props_192
+  - first:
+      213: -6934491921316674071
+    second: Level_Props_193
+  - first:
+      213: -6556464052461529386
+    second: Level_Props_194
+  - first:
+      213: -5403990965483405009
+    second: Level_Props_195
+  - first:
+      213: -5983649592353690233
+    second: Level_Props_196
+  - first:
+      213: 4225703102737872461
+    second: Level_Props_197
+  - first:
+      213: -6515931236715422833
+    second: Level_Props_198
+  - first:
+      213: -2603222317680716059
+    second: Level_Props_199
+  - first:
+      213: -7361447360664998023
+    second: Level_Props_200
+  - first:
+      213: -4446923489711854958
+    second: Level_Props_201
+  - first:
+      213: -4416227250335987715
+    second: Level_Props_202
+  - first:
+      213: -7877831796589496537
+    second: Level_Props_203
+  - first:
+      213: -7767700702443024194
+    second: Level_Props_204
+  - first:
+      213: -4844320770640401032
+    second: Level_Props_205
+  - first:
+      213: 8772576081864359233
+    second: Level_Props_206
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -233,11 +845,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Nature_props_01_0
+      name: Level_Props_0
       rect:
         serializedVersion: 2
         x: 75
-        y: 1432
+        y: 796
         width: 87
         height: 87
       alignment: 0
@@ -247,123 +859,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed51a0dc7d3a5e9c0800000000000000
-      internalID: -3898529755166009890
+      spriteID: f22c12c5cece94690800000000000000
+      internalID: -7617296794818330065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_1
+      name: Level_Props_1
       rect:
         serializedVersion: 2
-        x: 531
-        y: 1336
+        x: 530
+        y: 700
         width: 90
         height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4999993, y: 0.3313151}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdb311340a442a310800000000000000
-      internalID: 1414768688058416095
+      spriteID: 215d4800636635cd0800000000000000
+      internalID: -2570598580175448814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_2
+      name: Level_Props_2
       rect:
         serializedVersion: 2
-        x: 645
-        y: 1336
+        x: 652
+        y: 697
         width: 144
         height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4370291, y: 0.2717301}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c5e70c077bf94a10800000000000000
-      internalID: 1894321607007528384
+      spriteID: c48c48f1ef30ae450800000000000000
+      internalID: 6118707433721612364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_3
+      name: Level_Props_3
       rect:
         serializedVersion: 2
         x: 831
-        y: 1336
+        y: 700
         width: 108
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4580191, y: 0.34257254}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cde261562adaa8ca0800000000000000
-      internalID: -6013803439407616292
+      spriteID: ddc65208fdf3e5be0800000000000000
+      internalID: -1486680597825491747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_4
+      name: Level_Props_4
       rect:
         serializedVersion: 2
         x: 963
-        y: 1336
+        y: 700
         width: 117
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48990467, y: 0.0023473103}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c163f837ab2910a0800000000000000
-      internalID: -6910444156008308288
+      spriteID: c20cb6d1ab32e7190800000000000000
+      internalID: -7962887808879968212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_5
+      name: Level_Props_5
       rect:
         serializedVersion: 2
         x: 1146
-        y: 1336
+        y: 700
         width: 117
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45988894, y: 0.33704334}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b90c718f28120920800000000000000
-      internalID: 2954950897823386039
+      spriteID: 317151578df310ba0800000000000000
+      internalID: -6124543819337361645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_6
+      name: Level_Props_6
       rect:
         serializedVersion: 2
         x: 1281
-        y: 1333
+        y: 697
         width: 144
         height: 144
       alignment: 0
@@ -373,18 +985,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 026490708aa6c20a0800000000000000
-      internalID: -6905026858760714720
+      spriteID: 7c622aa839cd25890800000000000000
+      internalID: -7470666305610045753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_7
+      name: Level_Props_7
       rect:
         serializedVersion: 2
         x: 1611
-        y: 1405
+        y: 769
         width: 96
         height: 48
       alignment: 0
@@ -394,18 +1006,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f068be908899ad0800000000000000
-      internalID: -2694973325817016481
+      spriteID: d6a65262610d43940800000000000000
+      internalID: 5275069857105537645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_8
+      name: Level_Props_8
       rect:
         serializedVersion: 2
         x: 1719
-        y: 1405
+        y: 769
         width: 48
         height: 48
       alignment: 0
@@ -415,123 +1027,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d9c6eb9f42cb1010800000000000000
-      internalID: 1160734976151833043
+      spriteID: b3755328987db7e10800000000000000
+      internalID: 2196586228868273979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_9
+      name: Level_Props_9
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1336
+        x: 66
+        y: 699
         width: 93
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 51
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a613a438a570340800000000000000
-      internalID: 4829928645310114386
+      spriteID: 706f0ecce1ff552d0800000000000000
+      internalID: -3290443444972882425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_10
+      name: Level_Props_10
       rect:
         serializedVersion: 2
-        x: 195
-        y: 1336
+        x: 194
+        y: 700
         width: 45
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 51
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f757fe8ae97060d0800000000000000
-      internalID: -3431608867728435215
+      spriteID: 449a8f8c4393b8730800000000000000
+      internalID: 4002355592721639748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_11
+      name: Level_Props_11
       rect:
         serializedVersion: 2
         x: 267
-        y: 1336
+        y: 700
         width: 33
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 51
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 624fb7208f4718240800000000000000
-      internalID: 4792240087041307686
+      spriteID: 9ce2bfb22bbb8d2a0800000000000000
+      internalID: -6712408870679269687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_12
+      name: Level_Props_12
       rect:
         serializedVersion: 2
         x: 324
-        y: 1336
+        y: 700
         width: 96
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 51
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9fe687f8c41686f0800000000000000
-      internalID: -682835440121221220
+      spriteID: 0d4a11bc1e62abf00800000000000000
+      internalID: 1133261007453529296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_13
+      name: Level_Props_13
       rect:
         serializedVersion: 2
         x: 447
-        y: 1336
+        y: 700
         width: 39
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 51
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e12df641cab9ffbc0800000000000000
-      internalID: -3747105201569410530
+      spriteID: 4fdd68aa828ce6440800000000000000
+      internalID: 4931098719002484212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_14
+      name: Level_Props_14
       rect:
         serializedVersion: 2
         x: 1449
-        y: 1333
+        y: 697
         width: 144
         height: 96
       alignment: 0
@@ -541,18 +1153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aa1ed7f8a45fb720800000000000000
-      internalID: 2864100972720691878
+      spriteID: 8dd118b1272eab540800000000000000
+      internalID: 5024577314000805336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_15
+      name: Level_Props_15
       rect:
         serializedVersion: 2
         x: 1611
-        y: 1333
+        y: 697
         width: 144
         height: 48
       alignment: 0
@@ -562,18 +1174,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84d0e98306f055570800000000000000
-      internalID: 8454680781399133512
+      spriteID: 0699ff5bf2003a590800000000000000
+      internalID: -7664281935937562272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_16
+      name: Level_Props_16
       rect:
         serializedVersion: 2
         x: 48
-        y: 1144
+        y: 508
         width: 144
         height: 96
       alignment: 0
@@ -583,18 +1195,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb3d9b0a248f5c2d0800000000000000
-      internalID: -3258925790284622917
+      spriteID: 29b34e060aab4d020800000000000000
+      internalID: 2365720902259456914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_17
+      name: Level_Props_17
       rect:
         serializedVersion: 2
         x: 222
-        y: 1144
+        y: 508
         width: 48
         height: 144
       alignment: 0
@@ -604,291 +1216,291 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e91a44867fbaca00800000000000000
-      internalID: 777644401421326818
+      spriteID: e59a3d6820e61b150800000000000000
+      internalID: 5886607145080957278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_18
+      name: Level_Props_18
       rect:
         serializedVersion: 2
         x: 300
-        y: 1144
+        y: 508
         width: 111
         height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7936934}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6446c92c53ac17b30800000000000000
-      internalID: 4283427052853158982
+      spriteID: 3e1cc293dd7145400800000000000000
+      internalID: 311900513109852643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_19
+      name: Level_Props_19
       rect:
         serializedVersion: 2
         x: 468
-        y: 1144
+        y: 508
         width: 90
         height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49265748, y: 0.5497384}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ea892b1a0ed45a0800000000000000
-      internalID: -6535320499154014688
+      spriteID: ec8a64e33063fd350800000000000000
+      internalID: 6043608612512114894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_20
+      name: Level_Props_20
       rect:
         serializedVersion: 2
         x: 585
-        y: 1144
+        y: 508
         width: 129
         height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5051227, y: 0.3770577}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35146a72b041bb2d0800000000000000
-      internalID: -3261991466957389485
+      spriteID: 75db0f31a1bdf26b0800000000000000
+      internalID: -5318791729851089577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_21
+      name: Level_Props_21
       rect:
         serializedVersion: 2
         x: 726
-        y: 1144
+        y: 508
         width: 66
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9431416}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44edc747b96531c0800000000000000
-      internalID: -4524594014719187892
+      spriteID: 0d0e2cc794cf12b90800000000000000
+      internalID: -7268250931043311408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_22
+      name: Level_Props_22
       rect:
         serializedVersion: 2
-        x: 816
-        y: 1144
-        width: 180
+        x: 814
+        y: 507
+        width: 182
         height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.37905625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 589640b780e524e70800000000000000
-      internalID: 9097937587758459269
+      spriteID: fc81778533dd37a80800000000000000
+      internalID: -8470183261556500273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_23
+      name: Level_Props_23
       rect:
         serializedVersion: 2
         x: 1062
-        y: 1144
+        y: 508
         width: 99
         height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50000125, y: 0.6584953}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc708a50e9a44770800000000000000
-      internalID: 8594180769985887413
+      spriteID: a60c98b7509492560800000000000000
+      internalID: 7289437759772147818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_24
+      name: Level_Props_24
       rect:
         serializedVersion: 2
         x: 1194
-        y: 1144
+        y: 508
         width: 108
         height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50688004, y: 0.61923856}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 076886312b3ae0e40800000000000000
-      internalID: 5624612969857451632
+      spriteID: d12c391650cbf35c0800000000000000
+      internalID: -4233458393407045091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_25
+      name: Level_Props_25
       rect:
         serializedVersion: 2
         x: 1350
-        y: 1144
+        y: 508
         width: 78
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50000155, y: 1.010774}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b404351a51ba3be0800000000000000
-      internalID: -1496688925686365003
+      spriteID: 5ddc026bf79b79f90800000000000000
+      internalID: -6946879942028112427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_26
+      name: Level_Props_26
       rect:
         serializedVersion: 2
         x: 1449
-        y: 1144
+        y: 508
         width: 93
         height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48719838, y: 0.5684225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f01ea2e8278b3e10800000000000000
-      internalID: 2178483454435266809
+      spriteID: 3cec6e631bb09a440800000000000000
+      internalID: 4947498521401413315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_27
+      name: Level_Props_27
       rect:
         serializedVersion: 2
         x: 1569
-        y: 1144
+        y: 508
         width: 120
         height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5198425, y: 0.7834647}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34d9cbb0dd0f678c0800000000000000
-      internalID: -4001746386696757949
+      spriteID: 81adb6f35691f1860800000000000000
+      internalID: 7502743426868959768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_28
+      name: Level_Props_28
       rect:
         serializedVersion: 2
         x: 48
-        y: 913
+        y: 277
         width: 174
         height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49315783, y: 0.26579326}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99295936352b5ad90800000000000000
-      internalID: -7087062367374830951
+      spriteID: 54fe063524e790550800000000000000
+      internalID: 6127567591346073413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_29
+      name: Level_Props_29
       rect:
         serializedVersion: 2
         x: 234
-        y: 913
+        y: 277
         width: 168
         height: 189
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5070868, y: 0.25433075}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8832a46983a044e0800000000000000
-      internalID: -1999418424058300274
+      spriteID: aa284148876bbd300800000000000000
+      internalID: 278016430741684906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_30
+      name: Level_Props_30
       rect:
         serializedVersion: 2
         x: 423
-        y: 913
+        y: 277
         width: 138
         height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5086272, y: 0.35007888}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a89457977b2f440800000000000000
-      internalID: 4968235071229758049
+      spriteID: 39249a06688eae610800000000000000
+      internalID: 1651387877229675155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_31
+      name: Level_Props_31
       rect:
         serializedVersion: 2
         x: 579
-        y: 913
+        y: 277
         width: 111
         height: 102
       alignment: 0
@@ -898,18 +1510,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b534b0841b977b1f0800000000000000
-      internalID: -1029220187505999013
+      spriteID: b6b82956832e498a0800000000000000
+      internalID: -6299161246934332565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_32
+      name: Level_Props_32
       rect:
         serializedVersion: 2
         x: 696
-        y: 913
+        y: 277
         width: 150
         height: 96
       alignment: 0
@@ -919,239 +1531,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6cf8a891ca630af0800000000000000
-      internalID: -431383759574991763
+      spriteID: 6899be8ed6ecf2720800000000000000
+      internalID: 2823702462839101830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_33
+      name: Level_Props_33
       rect:
         serializedVersion: 2
-        x: 858
-        y: 913
+        x: 859
+        y: 276
         width: 78
         height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.46922418, y: 0.6333641}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307da47697b71b460800000000000000
-      internalID: 7255716236024796931
+      spriteID: 8af1054ce3a25aa50800000000000000
+      internalID: 6531673283640696744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_34
+      name: Level_Props_34
       rect:
         serializedVersion: 2
         x: 954
-        y: 913
+        y: 277
         width: 111
         height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38715407}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49cbfd30e12a28100800000000000000
-      internalID: 108827590808026260
+      spriteID: d969f9c0ec183f950800000000000000
+      internalID: 6481667010691307165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_35
+      name: Level_Props_35
       rect:
         serializedVersion: 2
         x: 1080
-        y: 913
+        y: 277
         width: 99
         height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4878768, y: 0.5827784}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea1e25b3f66ac780800000000000000
-      internalID: -8661997736390944031
+      spriteID: 55d9a3cc842662750800000000000000
+      internalID: 6279814795218296149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_36
+      name: Level_Props_36
       rect:
         serializedVersion: 2
         x: 1200
-        y: 913
+        y: 277
         width: 189
         height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49364913, y: 0.6913483}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5c6575c7d66ffac0800000000000000
-      internalID: -3819220882070082468
+      spriteID: c33ac573764e4a780800000000000000
+      internalID: -8672555850447150276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_37
+      name: Level_Props_37
       rect:
         serializedVersion: 2
         x: 1404
-        y: 913
+        y: 277
         width: 201
         height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49402887, y: 0.55334574}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daa2cf98b1981f740800000000000000
-      internalID: 5184075397452278445
+      spriteID: 1f56c3f99beb6e7f0800000000000000
+      internalID: -583569397248137743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_38
+      name: Level_Props_38
       rect:
         serializedVersion: 2
         x: 1623
-        y: 913
+        y: 277
         width: 129
         height: 78
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50000095, y: 0.6231056}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c658fe942011575d0800000000000000
-      internalID: -3065525269827713684
+      spriteID: b4d16db37fe78d4d0800000000000000
+      internalID: -3109595942373417653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_39
+      name: Level_Props_39
       rect:
         serializedVersion: 2
         x: 51
-        y: 760
+        y: 124
         width: 129
         height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5077308, y: 0.8673952}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ee5c8ad6ae81d110800000000000000
-      internalID: 1283964216059649769
+      spriteID: 01bfb81b8b299bdf0800000000000000
+      internalID: -163938589471933680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nature_props_01_40
+      name: Level_Props_40
       rect:
         serializedVersion: 2
         x: 219
-        y: 724
+        y: 88
         width: 90
         height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.53324074, y: 0.31264362}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db80b3faf8198d220800000000000000
-      internalID: 2510916838565284029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nature_props_01_41
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 127
-        width: 87
-        height: 525
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 785fa1f9e7d2a5e20800000000000000
-      internalID: 3340032095507117447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nature_props_01_42
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 127
-        width: 198
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7846dc63ee5f8af40800000000000000
-      internalID: 5740108128554148999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nature_props_01_43
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 127
-        width: 486
-        height: 525
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 950f0e563f7ed6970800000000000000
-      internalID: 8749904683623051353
+      spriteID: c27d2296ac9f6b050800000000000000
+      internalID: 5816110616538175276
       vertices: []
       indices: 
       edges: []
