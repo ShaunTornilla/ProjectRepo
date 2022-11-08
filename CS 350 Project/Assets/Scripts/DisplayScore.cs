@@ -13,10 +13,8 @@ public class DisplayScore : MonoBehaviour
 {
 
     public Text textbox;
-    public Text highScoreText;
 
     public int score = 0;
-    private int highScore;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +22,6 @@ public class DisplayScore : MonoBehaviour
         //set text component reference
         textbox = GetComponent<Text>();
         textbox.text = "Score: 0";
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
-        highScoreText.text = "HighScore: " + highScore;
     }
 
     // Update is called once per frame
@@ -33,10 +29,6 @@ public class DisplayScore : MonoBehaviour
     {
 
         textbox.text = "Score: " + score;
-        if(score>highScore)
-        {
-            highScoreText.text = "HighScore: " + score;
-        }
 
     }
 }
