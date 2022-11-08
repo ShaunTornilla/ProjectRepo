@@ -17,12 +17,8 @@ public class PlayerBehavior : MonoBehaviour
 
     public InteractChecker ic;
 
-    private bool interact;
-
     private void Awake()
     {
-        interact = false;
-
         pc = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
@@ -90,6 +86,8 @@ public class PlayerBehavior : MonoBehaviour
         rb.gravityScale = 1f;
     }
 
+
+    // Enemy Collision
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
@@ -113,6 +111,15 @@ public class PlayerBehavior : MonoBehaviour
             }
 
             rb.AddForce(knockbackDirection * knockbackForce * 100, ForceMode2D.Impulse);
+        }
+    }
+
+    // Player to Platform Collision
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Floor"))
+        {
+            //
         }
     }
 
