@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 111bef3782eec4f4b96bcf2bfb2f314e
+guid: 4ed7cf61f5dfa564ab64a0ee20991755
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3027607953805911622
-    second: Bee_32x32_Brown_Flying_L_0
+      213: 1969958459932456118
+    second: Bee_32x32_Brown_Flying_L-removebg-preview_0
   - first:
-      213: 278613088334976747
-    second: Bee_32x32_Brown_Flying_L_1
-  - first:
-      213: -8580163665839916193
-    second: Bee_32x32_Brown_Flying_L_0
-  - first:
-      213: 1368247565109764415
-    second: Bee_32x32_Brown_Flying_L_1
+      213: 3162050858117797654
+    second: Bee_32x32_Brown_Flying_L-removebg-preview_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bee_32x32_Brown_Flying_L_0
+      name: Bee_32x32_Brown_Flying_L-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,14 +121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5bf5e60b922de880800000000000000
-      internalID: -8580163665839916193
+      spriteID: 6b4bc8238c2b65b10800000000000000
+      internalID: 1969958459932456118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bee_32x32_Brown_Flying_L_1
+      name: Bee_32x32_Brown_Flying_L-removebg-preview_1
       rect:
         serializedVersion: 2
         x: 32
@@ -148,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31292349edfcf210800000000000000
-      internalID: 1368247565109764415
+      spriteID: 61794df808cd1eb20800000000000000
+      internalID: 3162050858117797654
       vertices: []
       indices: 
       edges: []

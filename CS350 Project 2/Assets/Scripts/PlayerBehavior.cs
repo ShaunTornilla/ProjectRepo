@@ -6,12 +6,13 @@ using UnityEngine.InputSystem;
 public class PlayerBehavior : MonoBehaviour
 {
 
-    [SerializeField] float JumpForce, maxSpeed;
+    [SerializeField] float JumpForce, maxSpeed, knockbackForce;
     private float movement;
     private Animator an;
     private Rigidbody2D rb;
     private PlayerControls pc;
     private GroundChecker gr;
+    public HealthManager healthSystem;
     private void Awake()
     {
         pc = new PlayerControls();
@@ -76,4 +77,31 @@ public class PlayerBehavior : MonoBehaviour
     {
         rb.gravityScale = 1f;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        Debug.Log("Collided with trigger!");
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Collided with enemy!");
+
+            healthSystem.health--;
+
+            Vector2 knockbackDirection;
+
+            if (transform.position.x < collision.transform.position.x)
+            {
+                knockbackDirection = new Vector2(-2, 1).normalized;
+            }
+            else
+            {
+                knockbackDirection = new Vector2(2, 1).normalized;
+            }
+
+            rb.AddForce(knockbackDirection * knockbackForce * 100, ForceMode2D.Impulse);
+        }
+    }
+
 }
