@@ -22,6 +22,7 @@ public class GameController : MonoBehaviour
     {
         if(change)
         {
+            change = false;
             Debug.Log("Trees grown: " + grownTrees + "/" + totalTrees);
             if (grownTrees == totalTrees)
                 Debug.Log("All Trees Grown! You Win");
