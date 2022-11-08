@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class GrowingBehavior : MonoBehaviour
 {
-    public InteractChecker ic;
-
+    private InteractChecker ic;
+    public ParticleSystem particles;
 
     public bool grown = false;
     [SerializeField] Sprite grownSprite;
+    
 
     private void Awake()
     {
         ic = GameObject.FindGameObjectWithTag("InteractCheck").GetComponent<InteractChecker>();
-
+        
     }
 
     // Start is called before the first frame update
@@ -24,6 +25,7 @@ public class GrowingBehavior : MonoBehaviour
             gameObject.tag = "Grown";
             grown = true;
             GetComponent<SpriteRenderer>().sprite = grownSprite;
+            particles.Play();
             GameController.trees.Remove(gameObject);
             GameController.TreeGrown();
         }

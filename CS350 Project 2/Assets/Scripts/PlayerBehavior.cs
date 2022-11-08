@@ -13,15 +13,12 @@ public class PlayerBehavior : MonoBehaviour
     private PlayerControls pc;
 
     private GroundChecker gr;
-<<<<<<< Updated upstream
     public HealthManager healthSystem;
-=======
 
     public InteractChecker ic;
 
     private bool interact;
 
->>>>>>> Stashed changes
     private void Awake()
     {
         interact = false;
@@ -40,6 +37,7 @@ public class PlayerBehavior : MonoBehaviour
         pc.Default.Jump.performed += _ => Jump();
         pc.Default.Fall.performed += _ => FastFall();
         pc.Default.Interact.performed += _ => Interact();
+        pc.Default.Interact.canceled += _ => StopInteract();
         pc.Default.Fall.canceled += _ => StopFastFall();
     }
 
@@ -92,7 +90,6 @@ public class PlayerBehavior : MonoBehaviour
         rb.gravityScale = 1f;
     }
 
-<<<<<<< Updated upstream
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
@@ -119,13 +116,17 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
-=======
     void Interact()
     {
         Debug.Log("Interact Button (E) Pressed");
         ic.pressed = true;
     }
 
+    void StopInteract()
+    {
+        Debug.Log("Interact Button Released");
+        ic.pressed = false;
+    }
 
->>>>>>> Stashed changes
+
 }

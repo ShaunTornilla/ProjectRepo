@@ -177,7 +177,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""1e78d911-9b7e-4e9a-90d1-5b13ca4e1159"",
                     ""path"": ""<Keyboard>/e"",
-                    ""interactions"": ""Tap"",
+                    ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Interact"",
