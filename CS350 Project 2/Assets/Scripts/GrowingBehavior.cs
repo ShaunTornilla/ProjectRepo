@@ -16,6 +16,8 @@ public class GrowingBehavior : MonoBehaviour
             gameObject.tag = "Grown";
             grown = true;
             GetComponent<SpriteRenderer>().sprite = grownSprite;
+            GameController.trees.Remove(gameObject);
+            GameController.TreeGrown();
         }
     }
 }
