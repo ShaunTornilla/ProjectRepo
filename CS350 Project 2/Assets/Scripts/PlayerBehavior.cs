@@ -11,14 +11,27 @@ public class PlayerBehavior : MonoBehaviour
     private Animator an;
     private Rigidbody2D rb;
     private PlayerControls pc;
+
     private GroundChecker gr;
+<<<<<<< Updated upstream
     public HealthManager healthSystem;
+=======
+
+    public InteractChecker ic;
+
+    private bool interact;
+
+>>>>>>> Stashed changes
     private void Awake()
     {
+        interact = false;
+
         pc = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
         gr = transform.Find("GroundCheck").GetComponent<GroundChecker>();
+        ic = transform.Find("InteractCheck").GetComponentInParent<InteractChecker>();
+
     }
 
     private void OnEnable()
@@ -26,6 +39,7 @@ public class PlayerBehavior : MonoBehaviour
         pc.Enable();
         pc.Default.Jump.performed += _ => Jump();
         pc.Default.Fall.performed += _ => FastFall();
+        pc.Default.Interact.performed += _ => Interact();
         pc.Default.Fall.canceled += _ => StopFastFall();
     }
 
@@ -78,6 +92,7 @@ public class PlayerBehavior : MonoBehaviour
         rb.gravityScale = 1f;
     }
 
+<<<<<<< Updated upstream
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
@@ -104,4 +119,13 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+=======
+    void Interact()
+    {
+        Debug.Log("Interact Button (E) Pressed");
+        ic.pressed = true;
+    }
+
+
+>>>>>>> Stashed changes
 }

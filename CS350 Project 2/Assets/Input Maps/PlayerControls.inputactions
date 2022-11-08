@@ -1,5 +1,5 @@
 {
-    "name": "PlayerControlls",
+    "name": "PlayerControls",
     "maps": [
         {
             "name": "Default",
@@ -25,6 +25,14 @@
                     "name": "Fall",
                     "type": "Button",
                     "id": "cb4dbfb9-4c83-414f-831e-f91c7ceefc8d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "41b8d235-a938-4295-9e3d-f41ebf38af04",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -149,6 +157,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Fall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e78d911-9b7e-4e9a-90d1-5b13ca4e1159",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

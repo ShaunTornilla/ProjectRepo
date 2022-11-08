@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class GrowingBehavior : MonoBehaviour
 {
+    public InteractChecker ic;
+
 
     public bool grown = false;
     [SerializeField] Sprite grownSprite;
 
-    // Start is called before the first frame update
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Awake()
     {
-        if(!grown && collision.gameObject.CompareTag("Player"))
+        ic = GameObject.FindGameObjectWithTag("InteractCheck").GetComponent<InteractChecker>();
+
+    }
+
+    // Start is called before the first frame update
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(!grown && ic.interacted && ic.pressed && collision.gameObject.CompareTag("Player"))
         {
             gameObject.tag = "Grown";
             grown = true;
@@ -19,5 +27,11 @@ public class GrowingBehavior : MonoBehaviour
             GameController.trees.Remove(gameObject);
             GameController.TreeGrown();
         }
+
+        if (grown)
+        {
+            ic.Reset();
+        }
+
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Grown
   - Enemy
   - Floor
+  - Interact
+  - InteractCheck
   layers:
   - Default
   - TransparentFX
