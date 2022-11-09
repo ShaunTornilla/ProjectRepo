@@ -11,7 +11,7 @@ public class InteractChecker : MonoBehaviour
     {
         if (collision.CompareTag("Interact") && pressed)
         {
-            Debug.Log("Player Interacted with Object");
+            //Debug.Log("Player Interacted with Object");
             interacted = true;
         }
     }

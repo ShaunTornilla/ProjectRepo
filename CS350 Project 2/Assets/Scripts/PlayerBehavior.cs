@@ -100,13 +100,13 @@ public class PlayerBehavior : MonoBehaviour
 
     void Interact()
     {
-        Debug.Log("Interact Button (E) Pressed");
+        //Debug.Log("Interact Button (E) Pressed");
         ic.pressed = true;
     }
 
     void StopInteract()
     {
-        Debug.Log("Interact Button Released");
+        //Debug.Log("Interact Button Released");
         ic.pressed = false;
     }
 
