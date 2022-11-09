@@ -113,7 +113,12 @@ public class PlayerBehavior : MonoBehaviour
     public void Knockback()
     {
         healthSystem.health--;
-        rb.AddForce(knockbackDirection * knockbackForce * 100, ForceMode2D.Impulse);
+        rb.AddForce(knockbackDirection * knockbackForce * rb.mass, ForceMode2D.Impulse);
+    }
+
+    private void OnBecameInvisible()
+    {
+        GameController.gameOver = true;
     }
 
 

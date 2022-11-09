@@ -13,8 +13,6 @@ public class HealthManager : MonoBehaviour
     public Sprite greenHealth;
     public Sprite redHealth;
 
-    public bool gameOver = false;
-    public bool win = false;
 
    // public GameObject gameOverText;
    // public GameObject newHighScoreText;
@@ -59,29 +57,10 @@ public class HealthManager : MonoBehaviour
 
         if (health <= 0)
         {
-            gameOver = true;
+            GameController.gameOver = true;
 
         }
 
-        if (gameOver)
-        {
-            Time.timeScale = 0;
-            /*if (win)
-            {
-                goText.text = "You Win!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to return to the main menu";
-            }
-            else
-            {
-                goText.text = "Game Over!\nFinal Score: " + GameObject.FindObjectOfType<DisplayScore>().score + "\nPress R to Restart or E to return to the main menu";
-            }
-
-            if (PlayerPrefs.GetInt("HighScore") < GameObject.FindObjectOfType<DisplayScore>().score)
-            {
-                newHighScoreText.SetActive(true);
-                PlayerPrefs.SetInt("HighScore", GameObject.FindObjectOfType<DisplayScore>().score);
-            }*/
-            //gameOverText.SetActive(true);
-        }
 
     }
 
@@ -90,28 +69,4 @@ public class HealthManager : MonoBehaviour
         health--;
     }
 
-    //ND to work with new input system
-    void OnRestart()
-    {
-        if (gameOver)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
-
-    void OnQuit()
-    {
-        if (gameOver)
-        {
-            SceneManager.LoadScene("Main Menu");
-            Debug.Log("Quitting");
-
-        }
-    }
-
-    void OnForceQuit()
-    {
-        Application.Quit();
-        Debug.Log("Force Quitting");
-    }
 }
