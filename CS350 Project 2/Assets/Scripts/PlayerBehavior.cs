@@ -11,11 +11,16 @@ public class PlayerBehavior : MonoBehaviour
     private Animator an;
     private Rigidbody2D rb;
     private PlayerControls pc;
-
-    private GroundChecker gr;
     public HealthManager healthSystem;
 
+    private GroundChecker gr;
+
     public InteractChecker ic;
+
+    private AudioSource sound;
+    public AudioClip damageSound;
+    public Vector2 knockbackDirection;
+
 
     private void Awake()
     {
@@ -24,6 +29,9 @@ public class PlayerBehavior : MonoBehaviour
         an = GetComponent<Animator>();
         gr = transform.Find("GroundCheck").GetComponent<GroundChecker>();
         ic = transform.Find("InteractCheck").GetComponentInParent<InteractChecker>();
+        healthSystem = GameObject.Find("HealthSystem").GetComponent<HealthManager>();
+        sound = GetComponent<AudioSource>();
+        
 
     }
 
@@ -61,6 +69,10 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+
     void Move()
     {
         float yVel = rb.velocity.y;
@@ -86,43 +98,6 @@ public class PlayerBehavior : MonoBehaviour
         rb.gravityScale = 1f;
     }
 
-
-    // Enemy Collision
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-
-        Debug.Log("Collided with trigger!");
-
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Debug.Log("Collided with enemy!");
-
-            healthSystem.health--;
-
-            Vector2 knockbackDirection;
-
-            if (transform.position.x < collision.transform.position.x)
-            {
-                knockbackDirection = new Vector2(-2, 1).normalized;
-            }
-            else
-            {
-                knockbackDirection = new Vector2(2, 1).normalized;
-            }
-
-            rb.AddForce(knockbackDirection * knockbackForce * 100, ForceMode2D.Impulse);
-        }
-    }
-
-    // Player to Platform Collision
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Floor"))
-        {
-            //
-        }
-    }
-
     void Interact()
     {
         Debug.Log("Interact Button (E) Pressed");
@@ -133,6 +108,12 @@ public class PlayerBehavior : MonoBehaviour
     {
         Debug.Log("Interact Button Released");
         ic.pressed = false;
+    }
+
+    public void Knockback()
+    {
+        healthSystem.health--;
+        rb.AddForce(knockbackDirection * knockbackForce * 100, ForceMode2D.Impulse);
     }
 
 
