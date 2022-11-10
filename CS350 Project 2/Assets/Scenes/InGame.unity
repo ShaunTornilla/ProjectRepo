@@ -12204,13 +12204,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1553545347}
   - component: {fileID: 1553545348}
+  - component: {fileID: 1553545349}
   m_Layer: 8
   m_Name: Dirt_Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1553545347
 Transform:
   m_ObjectHideFlags: 0
@@ -12276,6 +12277,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1553545349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553545346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ac9c703760e104ebeb58bd712bb43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxAlpha: 255
+  minAlpha: 0
 --- !u!1 &1573721568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2342948717504229110, guid: 32d6f7235f464f7479a168c3982506eb,
@@ -13436,6 +13451,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 816106700}
+    - target: {fileID: 7988661678597162713, guid: 85be6c02469ed3d4bab1f40eb899481b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -170.58997
+      objectReference: {fileID: 0}
     - target: {fileID: 7988661678856770272, guid: 85be6c02469ed3d4bab1f40eb899481b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
