@@ -59,11 +59,13 @@ public class BeeEnemy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        Debug.Log("Collided with trigger!");
+       // Debug.Log("Collided with trigger!");
 
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Collided with enemy!");
+            //Debug.Log("Collided with enemy!");
+
+            pb = collision.GetComponent<PlayerBehavior>();
 
             if (transform.position.x < collision.transform.position.x)
             {
