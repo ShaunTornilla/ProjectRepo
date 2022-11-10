@@ -67,7 +67,7 @@ public class BeeEnemy : MonoBehaviour
 
             pb = collision.GetComponent<PlayerBehavior>();
 
-            if (transform.position.x < collision.transform.position.x)
+            if (transform.position.x > collision.transform.position.x)
             {
                 pb.knockbackDirection = new Vector2(-2, 1).normalized;
             }
@@ -76,7 +76,7 @@ public class BeeEnemy : MonoBehaviour
                 pb.knockbackDirection = new Vector2(2, 1).normalized;
             }
 
-            sound.PlayOneShot(damageSound, .5f);
+            //sound.PlayOneShot(damageSound, .5f);
             pb.Knockback();
             
         }

@@ -11,6 +11,7 @@ public class PlayerBehavior : MonoBehaviour
     private Animator an;
     private Rigidbody2D rb;
     private PlayerControls pc;
+    private float gravityScale;
     public HealthManager healthSystem;
 
     private GroundChecker gr;
@@ -21,9 +22,12 @@ public class PlayerBehavior : MonoBehaviour
     public AudioClip damageSound;
     public Vector2 knockbackDirection;
 
+    private bool knockbacked = false;
+
 
     private void Awake()
     {
+
         pc = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
@@ -31,7 +35,7 @@ public class PlayerBehavior : MonoBehaviour
         ic = transform.Find("InteractCheck").GetComponentInParent<InteractChecker>();
         healthSystem = GameObject.Find("HealthSystem").GetComponent<HealthManager>();
         sound = GetComponent<AudioSource>();
-        
+        gravityScale = rb.gravityScale;
 
     }
 
@@ -58,12 +62,13 @@ public class PlayerBehavior : MonoBehaviour
         an.SetBool("grounded", gr.grounded);
 
         movement = pc.Default.Move.ReadValue<float>();
-        Move();
-        if(movement<0)
+        if (!knockbacked)
+            Move();
+        if (movement < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
-        else if(movement>0)
+        else if (movement > 0)
         {
             transform.rotation = Quaternion.identity;
         }
@@ -81,7 +86,7 @@ public class PlayerBehavior : MonoBehaviour
 
     void Jump()
     {
-        Debug.Log(gr.grounded);
+        //Debug.Log(gr.grounded);
         if (gr.grounded)
         {
             rb.AddForce(transform.up * JumpForce * rb.mass, ForceMode2D.Impulse);
@@ -90,12 +95,12 @@ public class PlayerBehavior : MonoBehaviour
 
     void FastFall()
     {
-        rb.gravityScale = 1.5f;
+        rb.gravityScale *= 1.5f;
     }
 
     void StopFastFall()
     {
-        rb.gravityScale = 1f;
+        rb.gravityScale = gravityScale;
     }
 
     void Interact()
@@ -112,8 +117,15 @@ public class PlayerBehavior : MonoBehaviour
 
     public void Knockback()
     {
-        healthSystem.health--;
-        rb.AddForce(knockbackDirection * knockbackForce * rb.mass, ForceMode2D.Impulse);
+        if (!knockbacked)
+        {
+            healthSystem.health--;
+            //Debug.Log(knockbackDirection);
+            rb.AddForce(knockbackDirection * knockbackForce * rb.mass, ForceMode2D.Impulse);
+            knockbacked = true;
+            sound.PlayOneShot(damageSound, .5f);
+            StartCoroutine(Pause());
+        }
     }
 
     private void OnBecameInvisible()
@@ -121,5 +133,13 @@ public class PlayerBehavior : MonoBehaviour
         GameController.gameOver = true;
     }
 
+    IEnumerator Pause()
+    {
+        yield return new WaitForSeconds(0.5f);
+        yield return new WaitUntil(() => gr.grounded);
+        knockbacked = false;
+    }
+
 
 }
+
