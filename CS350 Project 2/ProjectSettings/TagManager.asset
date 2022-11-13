@@ -51,17 +51,23 @@ TagManager:
   - name: Background
     uniqueID: 1068106425
     locked: 0
-  - name: Background Props
+  - name: Trees
+    uniqueID: 639782043
+    locked: 0
+  - name: Foliage
     uniqueID: 2840098411
+    locked: 0
+  - name: Rocks
+    uniqueID: 772165889
     locked: 0
   - name: Platform
     uniqueID: 969910975
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Particles
     uniqueID: 1725726399
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: UI
     uniqueID: 4069907535

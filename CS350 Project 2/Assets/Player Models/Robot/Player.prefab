@@ -250,7 +250,6 @@ GameObject:
   - component: {fileID: 9121413560391327126}
   - component: {fileID: 9022473928216392934}
   - component: {fileID: 8993760090000331466}
-  - component: {fileID: 8963467750956572789}
   - component: {fileID: 8963467751664818655}
   - component: {fileID: 810553323}
   - component: {fileID: 530862313789808318}
@@ -371,22 +370,6 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &8963467750956572789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8962419034636804702}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 475fdb19caa01a042824d48720596512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minGroundNormalY: 0.65
-  gravityModifier: 1
-  maxSpeed: 7
-  jumpTakeOffSpeed: 7
 --- !u!114 &8963467751664818655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,7 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e74d30b961032e54d815761e7c539707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: 10
+  JumpForce: 10.5
   maxSpeed: 6
   knockbackForce: 10
   healthSystem: {fileID: 0}
