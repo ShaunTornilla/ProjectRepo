@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     private Text CO2Text;
     private GameObject gameOverObject;
     private GameObject pauseMenu;
+    public Slider slider;
 
     void Start()
     {
@@ -52,6 +53,9 @@ public class GameController : MonoBehaviour
 
     private void LateUpdate()
     {
+
+        SetUIBar(CO2, maxCO2);
+
         if(gameOver)
         {
             Text text = gameOverObject.GetComponent<Text>();
@@ -133,6 +137,11 @@ public class GameController : MonoBehaviour
             SceneManager.LoadScene(nextLevelName);
         else
             Debug.Log("Load Next Level");
+    }
+
+    public void SetUIBar(float co2, float maxco2)
+    {
+        slider.value = co2 / maxco2;
     }
 
 
