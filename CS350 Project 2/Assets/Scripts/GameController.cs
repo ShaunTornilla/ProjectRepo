@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     public static bool change = false;
     public static bool gameOver = false;
     public static bool win = false;
+
     [SerializeField] string nextLevelName;
     // Start is called before the first frame update
 
@@ -128,13 +129,13 @@ public class GameController : MonoBehaviour
     public void Exit()
     {
         Debug.Log("Load Main Menu");
-        //SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void Next()
     {
         if (nextLevelName != null)
-            SceneManager.LoadScene(nextLevelName);
+            SceneManager.LoadScene("Level 2");
         else
             Debug.Log("Load Next Level");
     }
