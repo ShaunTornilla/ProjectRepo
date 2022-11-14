@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
     private GameObject gameOverObject;
     private GameObject pauseMenu;
     public Slider slider;
+    public Gradient gradient;
+    public Image fill;
 
     void Start()
     {
@@ -143,6 +145,7 @@ public class GameController : MonoBehaviour
     public void SetUIBar(float co2, float maxco2)
     {
         slider.value = co2 / maxco2;
+        fill.color = gradient.Evaluate(co2 / maxco2);
     }
 
 
