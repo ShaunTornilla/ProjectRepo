@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6342648155d6bde41bb50734208f070b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: 
+  nextLevelName: Level 2
   winSound: {fileID: 8300000, guid: 2686620cd46b98a4287f996367633ac9, type: 3}
   slider: {fileID: 7988661679984410696}
   gradient:
