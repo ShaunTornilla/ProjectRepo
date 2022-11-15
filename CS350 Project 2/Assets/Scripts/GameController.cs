@@ -24,7 +24,7 @@ public class GameController : MonoBehaviour
     private float maxCO2 = 100f;
     private float CO2 = 0f;
     private Text treeText;
-    private Text CO2Text;
+    //private Text CO2Text;
     private GameObject gameOverObject;
     private GameObject pauseMenu;
     public Slider slider;
@@ -40,7 +40,7 @@ public class GameController : MonoBehaviour
         grownTrees = 0;
         sound = GetComponent<AudioSource>();
         treeText = GameObject.FindGameObjectWithTag("TreeInfo").GetComponent<Text>();
-        CO2Text = GameObject.FindGameObjectWithTag("CO2Info").GetComponent<Text>();
+        //CO2Text = GameObject.FindGameObjectWithTag("CO2Info").GetComponent<Text>();
         gameOverObject = GameObject.FindGameObjectWithTag("GameOverInfo");
         gameOverObject.SetActive(false);
         pauseMenu = GameObject.FindGameObjectWithTag("PauseInfo");
@@ -100,7 +100,7 @@ public class GameController : MonoBehaviour
         {
             yield return new WaitForSeconds(0.1f + 0.1f * (grownTrees / totalTrees));
             CO2 += 0.1f;
-            CO2Text.text = (int) CO2 + "/" + maxCO2;
+            //CO2Text.text = (int) CO2 + "/" + maxCO2;
             if (CO2 == maxCO2)
             {
                 gameOver = true;
