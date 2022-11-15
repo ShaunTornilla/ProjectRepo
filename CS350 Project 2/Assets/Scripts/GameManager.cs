@@ -40,6 +40,9 @@ public class GameManager : Singleton<GameManager>
     {
         Time.timeScale = 1f;
 
+        if (CurrentLevelName.CompareTo(string.Empty) != 0)
+            unloadCurrentLevel();
+
         AsyncOperation ao = SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);
 
         if (ao == null)
@@ -76,6 +79,11 @@ public class GameManager : Singleton<GameManager>
         }
 
 
+    }
+
+    public void Restart()
+    {
+        LoadLevel(CurrentLevelName);
     }
 
     // Methods to pause and unpause

@@ -125,7 +125,7 @@ public class GameController : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameObject.FindObjectOfType<GameManager>().Restart();
     }
 
     public void Exit()
@@ -137,7 +137,7 @@ public class GameController : MonoBehaviour
     public void Next()
     {
         if (nextLevelName != null)
-            SceneManager.LoadScene("Level 2");
+            GameObject.FindObjectOfType<GameManager>().LoadLevel(nextLevelName);
         else
             Debug.Log("Load Next Level");
     }
