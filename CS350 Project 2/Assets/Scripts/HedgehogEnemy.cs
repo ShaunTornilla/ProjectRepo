@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BeeEnemy : MonoBehaviour
+public class HedgehogEnemy : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    private GameObject playerObject;
 
-    public float speed = 5f;
-    public int radius = 5;
+    public float speed;
+    public int radius = 7;
     private float startPosition;
     private bool movingLeft = true;
     public float knockbackForce;
+    public int lowerLimit = -20;
 
     private AudioSource sound;
     public AudioClip damageSound;
@@ -22,45 +22,43 @@ public class BeeEnemy : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         sound = GetComponent<AudioSource>();
-        startPosition = transform.position.y;
+        startPosition = transform.position.x;
         pb = GameObject.Find("Player").GetComponent<PlayerBehavior>();
-        playerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
+
+        //despawn if enemy falls off screen
+        if (transform.position.y < lowerLimit)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Move()
     {
         if (movingLeft)
         {
-            transform.Translate(new Vector2(0, -speed * Time.deltaTime));
+            transform.Translate(new Vector2(-speed * Time.deltaTime, 0));
 
-            if (startPosition - transform.position.y >=  radius)
+            if (startPosition - transform.position.x >= radius)
             {
+                spriteRenderer.flipX = true;
                 movingLeft = false;
             }
         }
         if (!movingLeft)
         {
-            transform.Translate(new Vector2(0, speed * Time.deltaTime));
+            transform.Translate(new Vector2(speed * Time.deltaTime, 0));
 
-            if (transform.position.y - startPosition  >= radius)
+            if (transform.position.x - startPosition >= radius)
             {
+                spriteRenderer.flipX = false;
                 movingLeft = true;
             }
-        }
-
-        if (playerObject.gameObject.transform.position.x < transform.position.x)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else
-        {
-            spriteRenderer.flipX = true;
         }
     }
 
@@ -68,7 +66,7 @@ public class BeeEnemy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-       // Debug.Log("Collided with trigger!");
+        // Debug.Log("Collided with trigger!");
 
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -87,8 +85,7 @@ public class BeeEnemy : MonoBehaviour
 
             //sound.PlayOneShot(damageSound, .5f);
             pb.Knockback();
-            
+
         }
     }
-
 }
