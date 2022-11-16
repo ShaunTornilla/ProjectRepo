@@ -9,6 +9,7 @@ public class InteractChecker : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        Debug.Log("Triggered Interact Checker");
         if (collision.CompareTag("Interact") && pressed)
         {
             //Debug.Log("Player Interacted with Object");

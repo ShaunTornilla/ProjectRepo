@@ -162,10 +162,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1d8367da74e64a4c85f34071c576fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 2
   visionRadius: 7
+  detected: 0
   knockbackForce: 0
   lowerLimit: -20
+  walkingSound: {fileID: 8300000, guid: 866e42a46a3df8d449b89bad76361290, type: 3}
   pb: {fileID: 0}
 --- !u!50 &1856897301977231967
 Rigidbody2D:
@@ -202,7 +204,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

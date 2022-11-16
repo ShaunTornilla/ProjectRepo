@@ -238,6 +238,53 @@ MonoBehaviour:
   healthBar: []
   greenHealth: {fileID: 21300000, guid: df83c0e56f605124ca5acbe9d1512b97, type: 3}
   redHealth: {fileID: 21300000, guid: 4bb86d84644439a49a41d59aa9f6060b, type: 3}
+--- !u!1 &7871098016409176643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8427088142382602761}
+  - component: {fileID: 6050126772089858425}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: SurroundingCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8427088142382602761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7871098016409176643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8967983159956462520}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &6050126772089858425
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7871098016409176643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 7
 --- !u!1 &8962419034636804702
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +322,7 @@ Transform:
   - {fileID: 5817315432968818644}
   - {fileID: 2809551688099418800}
   - {fileID: 4982972304765773398}
+  - {fileID: 8427088142382602761}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -389,6 +437,8 @@ MonoBehaviour:
   ic: {fileID: 0}
   damageSound: {fileID: 8300000, guid: 1ed32ab6b1120c048a3810e49b0faeb6, type: 3}
   knockbackDirection: {x: 0, y: 0}
+  colliderEnabled: 0
+  playerCollider: {fileID: 0}
 --- !u!70 &810553323
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
