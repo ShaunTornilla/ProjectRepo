@@ -24,25 +24,21 @@ public class GrowingBehavior : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(!grown && ic.interacted && ic.pressed && collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Triggered Growing Behavior");
-
-            if (!grown && ic.interacted && ic.pressed && collision.gameObject.CompareTag("Player"))
-            {
-                gameObject.tag = "Grown";
-                grown = true;
-                soundEffects.PlayOneShot(interacted, .5f);
-                GetComponent<SpriteRenderer>().sprite = grownSprite;
-                particles.Play();
-                GameController.trees.Remove(gameObject);
-                GameController.TreeGrown();
-            }
-
-            if (grown)
-            {
-                ic.Reset();
-            }
+            gameObject.tag = "Grown";
+            grown = true;
+            soundEffects.PlayOneShot(interacted, .5f);
+            GetComponent<SpriteRenderer>().sprite = grownSprite;
+            particles.Play();
+            GameController.trees.Remove(gameObject);
+            GameController.TreeGrown();
         }
+
+        if (grown)
+        {
+            ic.Reset();
+        }
+
     }
 }

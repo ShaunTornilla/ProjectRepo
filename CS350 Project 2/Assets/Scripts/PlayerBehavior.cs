@@ -13,7 +13,6 @@ public class PlayerBehavior : MonoBehaviour
     private PlayerControls pc;
     private float gravityScale;
     public HealthManager healthSystem;
-    private PlayerBehavior playerBehavior;
 
     private GroundChecker gr;
 
@@ -24,26 +23,19 @@ public class PlayerBehavior : MonoBehaviour
     public Vector2 knockbackDirection;
 
     private bool knockbacked = false;
-    public bool colliderEnabled;
 
-    public CapsuleCollider2D playerCollider;
-    public CircleCollider2D circleCollider;
-
-    
 
     private void Awake()
     {
+
         pc = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
         gr = transform.Find("GroundCheck").GetComponent<GroundChecker>();
         ic = transform.Find("InteractCheck").GetComponentInParent<InteractChecker>();
         healthSystem = GameObject.Find("HealthSystem").GetComponent<HealthManager>();
-        playerBehavior = gameObject.GetComponent<PlayerBehavior>();
         sound = GetComponent<AudioSource>();
         gravityScale = rb.gravityScale;
-        playerCollider = GetComponent<CapsuleCollider2D>();
-        circleCollider = GetComponent<CircleCollider2D>();
 
     }
 
@@ -82,6 +74,9 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
 
     void Move()
     {
@@ -122,11 +117,9 @@ public class PlayerBehavior : MonoBehaviour
 
     public void Knockback()
     {
-        Debug.Log("Knockback() called.");
-
         if (!knockbacked)
         {
-            healthSystem.TakeDamage();
+            healthSystem.health--;
             //Debug.Log(knockbackDirection);
             rb.AddForce(knockbackDirection * knockbackForce * rb.mass, ForceMode2D.Impulse);
             knockbacked = true;
@@ -145,14 +138,6 @@ public class PlayerBehavior : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         yield return new WaitUntil(() => gr.grounded);
         knockbacked = false;
-    }
-
-    public IEnumerator Invincibility()
-    {
-        //Debug.Log("Coroutine Started");
-        yield return new WaitForSeconds(.5f);
-        playerCollider.enabled = !playerCollider.enabled;
-
     }
 
 

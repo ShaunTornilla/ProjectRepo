@@ -14,7 +14,6 @@ TagManager:
   - CO2Info
   - GameOverInfo
   - PauseInfo
-  - SurroundingCollider
   layers:
   - Default
   - TransparentFX

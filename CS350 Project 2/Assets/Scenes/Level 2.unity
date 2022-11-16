@@ -16391,20 +16391,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 3.6857164
       objectReference: {fileID: 0}
-    - target: {fileID: 6050126772089858425, guid: 72da5c5af740ad144bc122a93a33292f,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7576089016407778891, guid: 72da5c5af740ad144bc122a93a33292f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7871098016409176643, guid: 72da5c5af740ad144bc122a93a33292f,
-        type: 3}
-      propertyPath: m_Name
-      value: SurroundingPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 8962419034636804702, guid: 72da5c5af740ad144bc122a93a33292f,
         type: 3}
