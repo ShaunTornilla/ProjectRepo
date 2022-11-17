@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
+    public string levelName;
 
     void Start()
     {
@@ -65,6 +66,7 @@ public class GameController : MonoBehaviour
             if(win)
             {
                 text.text = "You Win!";
+                PlayerPrefs.SetInt(levelName + "Beaten", 1);
             }
             else
             {
