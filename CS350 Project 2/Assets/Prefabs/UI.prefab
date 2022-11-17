@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6342648155d6bde41bb50734208f070b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: Level 2
+  nextLevelName: Level 1
   winSound: {fileID: 8300000, guid: 2686620cd46b98a4287f996367633ac9, type: 3}
   slider: {fileID: 7988661679984410696}
   gradient:
@@ -1660,7 +1660,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C02 Level
+  m_Text: CO2 Level
 --- !u!114 &7988661680067355587
 MonoBehaviour:
   m_ObjectHideFlags: 0
