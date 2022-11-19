@@ -48,23 +48,35 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: 1
     uniqueID: 1068106425
     locked: 0
-  - name: Trees
+  - name: 2
+    uniqueID: 482273689
+    locked: 0
+  - name: 3
+    uniqueID: 1361027391
+    locked: 0
+  - name: 4
+    uniqueID: 804392429
+    locked: 0
+  - name: 5
     uniqueID: 639782043
     locked: 0
-  - name: Foliage
+  - name: 6
     uniqueID: 2840098411
     locked: 0
-  - name: Rocks
+  - name: 7
     uniqueID: 772165889
     locked: 0
-  - name: Platform
+  - name: 8
     uniqueID: 969910975
     locked: 0
-  - name: Particles
+  - name: 9
     uniqueID: 1725726399
+    locked: 0
+  - name: 10
+    uniqueID: 2452589849
     locked: 0
   - name: Default
     uniqueID: 0

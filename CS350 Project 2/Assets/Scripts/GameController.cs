@@ -32,6 +32,8 @@ public class GameController : MonoBehaviour
     public Image fill;
     public string levelName;
 
+    //public Text CO2Text;
+
     void Start()
     {
         Time.timeScale = 1f;
@@ -106,6 +108,7 @@ public class GameController : MonoBehaviour
             if (CO2 == maxCO2)
             {
                 gameOver = true;
+                //Debug.Log("CO2 Counter gameOver set to True");
             }
 
         }

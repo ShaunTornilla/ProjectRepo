@@ -47,7 +47,11 @@ public class SpikeEnemy : MonoBehaviour
     private void Move()
     {
         //if player is within vision radius and to the left of the enemy, move left
-        if (transform.position.x - playerObject.transform.position.x <= visionRadius && transform.position.x - playerObject.transform.position.x > 0)
+
+
+        //if (transform.position.x - playerObject.transform.position.x <= visionRadius && transform.position.x - playerObject.transform.position.x > 0)
+        if (transform.position.x - playerObject.transform.position.x <= visionRadius && playerObject.transform.position.y - transform.position.y <= visionRadius && transform.position.x - playerObject.transform.position.x > 0 &&
+            playerObject.transform.position.y - transform.position.y > 0)
         {
             transform.Translate(new Vector2(-speed * Time.deltaTime, 0));
             spriteRenderer.flipX = false;
@@ -57,7 +61,9 @@ public class SpikeEnemy : MonoBehaviour
 
         }
         //if player is within vision radius and to the right of the enemy, move right
-        else if (playerObject.transform.position.x - transform.position.x <= visionRadius && playerObject.transform.position.x - transform.position.x > 0)
+        //else if (playerObject.transform.position.x - transform.position.x <= visionRadius && playerObject.transform.position.x - transform.position.x > 0)
+        else if (playerObject.transform.position.x - transform.position.x <= visionRadius && playerObject.transform.position.y - transform.position.y <= visionRadius && playerObject.transform.position.x - transform.position.x > 0 &&
+                playerObject.transform.position.y - transform.position.y > 0)
         {
             transform.Translate(new Vector2(speed * Time.deltaTime, 0));
             spriteRenderer.flipX = true;
