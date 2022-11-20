@@ -16,6 +16,7 @@ public class TutorialScript : MonoBehaviour
         {
             temp.gameObject.SetActive(false);
         }
+        beginning.transform.GetChild(0).gameObject.SetActive(true);
         beginning.transform.GetChild(line).gameObject.SetActive(true);
     }
 
