@@ -55,6 +55,8 @@ public class GameController : MonoBehaviour
         treeText.text = "Trees Grown: " + grownTrees + "/" + totalTrees;
         //Debug.Log("Total Tree Count:" + totalTrees.ToString());
         StartCoroutine(CO2Counter());
+
+
     }
 
     private void LateUpdate()
@@ -152,6 +154,7 @@ public class GameController : MonoBehaviour
         slider.value = co2 / maxco2;
         fill.color = gradient.Evaluate(co2 / maxco2);
     }
+
 
 
 

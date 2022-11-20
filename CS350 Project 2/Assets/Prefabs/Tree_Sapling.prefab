@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1454868885
-  m_SortingLayer: -4
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 2572236292851511218, guid: ea2160cb328655a4e858e6493103cbe6,
     type: 3}
@@ -107,6 +107,7 @@ MonoBehaviour:
   grown: 0
   grownSprite: {fileID: -8911251428918342384, guid: ea2160cb328655a4e858e6493103cbe6,
     type: 3}
+  treeCollider: {fileID: 0}
 --- !u!82 &7651066786014665435
 AudioSource:
   m_ObjectHideFlags: 0
@@ -119,7 +120,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.297
+  m_Volume: 0.165
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -463,6 +464,7 @@ MonoBehaviour:
   grown: 0
   grownSprite: {fileID: -8911251428918342384, guid: ea2160cb328655a4e858e6493103cbe6,
     type: 3}
+  treeCollider: {fileID: 0}
 --- !u!1 &8991441055703442922
 GameObject:
   m_ObjectHideFlags: 0
@@ -5248,7 +5250,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1725726399
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_RenderMode: 4
   m_SortMode: 0

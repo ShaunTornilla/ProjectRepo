@@ -9,10 +9,13 @@ public class GameManager : Singleton<GameManager>
     public GameObject mainMenu;
 
     private AudioSource sound;
+    public AudioClip titleTheme;
     public AudioClip gameTheme;
 
     public bool pause = false;
     public bool startClock = false;
+    public bool gameStart = false;
+
 
 
     // Variable to keep track of current level
@@ -23,14 +26,19 @@ public class GameManager : Singleton<GameManager>
     private void Start()
     {
         sound = GetComponent<AudioSource>();
-        sound.clip = gameTheme;
+        sound.clip = titleTheme;
         sound.Play();
+
+        StartCoroutine(InGameMusic());
     }
 
     // Methods to load and unload scenes
     public void LoadLevel(string levelName)
     {
         Time.timeScale = 1f;
+        gameStart = true;
+
+        
 
         if (CurrentLevelName.CompareTo(string.Empty) != 0)
             unloadCurrentLevel();
@@ -105,6 +113,13 @@ public class GameManager : Singleton<GameManager>
         pauseMenu.SetActive(false);
         mainMenu.SetActive(true);
 
+    }
+
+    IEnumerator InGameMusic()
+    {
+        yield return new WaitUntil(() => gameStart == true);
+        sound.clip = gameTheme;
+        sound.Play();
     }
 
 

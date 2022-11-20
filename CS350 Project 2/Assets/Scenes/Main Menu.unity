@@ -1269,9 +1269,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 327670872}
   mainMenu: {fileID: 1174797746}
-  gameTheme: {fileID: 8300000, guid: 233cc5e1d9cfaee47a4fbfd2edfce295, type: 3}
+  titleTheme: {fileID: 8300000, guid: 233cc5e1d9cfaee47a4fbfd2edfce295, type: 3}
+  gameTheme: {fileID: 8300000, guid: 853275f4c28c91d4d83645eb3c2c0863, type: 3}
   pause: 0
   startClock: 0
+  gameStart: 0
   CurrentLevelName: 
 --- !u!4 &1090915912
 Transform:
@@ -1299,7 +1301,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.479
+  m_Volume: 0.183
   m_Pitch: 1
   Loop: 1
   Mute: 0
