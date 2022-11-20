@@ -105,7 +105,7 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(0.1f + 0.1f * (grownTrees / totalTrees));
             CO2 += 0.1f;
             //CO2Text.text = (int) CO2 + "/" + maxCO2;
-            if (CO2 == maxCO2)
+            if (CO2 >= maxCO2)
             {
                 gameOver = true;
                 //Debug.Log("CO2 Counter gameOver set to True");
