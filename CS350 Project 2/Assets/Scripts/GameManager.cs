@@ -8,32 +8,24 @@ public class GameManager : Singleton<GameManager>
     public GameObject pauseMenu;
     public GameObject mainMenu;
 
+    private AudioSource sound;
+    public AudioClip gameTheme;
+
     public bool pause = false;
     public bool startClock = false;
+
 
     // Variable to keep track of current level
     public string CurrentLevelName = string.Empty;
 
     public static GameManager instance;
 
-    /*#region This code makes this class a Singleton
-    private void Awake()
+    private void Start()
     {
-        if (instance == null)
-        {
-            // This is referring to this exact script
-            instance = this;
-
-            // Make sure this game manager persists across scenes
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-            Debug.LogError("Trying to instantiate a second" + "instance of singleton Game Manager");
-        }
+        sound = GetComponent<AudioSource>();
+        sound.clip = gameTheme;
+        sound.Play();
     }
-    #endregion*/
 
     // Methods to load and unload scenes
     public void LoadLevel(string levelName)
