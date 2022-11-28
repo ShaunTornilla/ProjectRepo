@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
     private AudioSource sound;
     [SerializeField] AudioClip winSound;
     
-    private float maxCO2 = 100f;
+    [SerializeField] float maxCO2 = 100f;
     private float CO2 = 0f;
     private Text treeText;
     //private Text CO2Text;
@@ -75,6 +75,7 @@ public class GameController : MonoBehaviour
             else
             {
                 text.text = "You Lose";
+                GameObject.FindGameObjectWithTag("NextLevel").SetActive(false);
             }
             gameOverObject.SetActive(true);
             Time.timeScale = 0f;

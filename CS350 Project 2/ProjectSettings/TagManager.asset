@@ -14,6 +14,7 @@ TagManager:
   - CO2Info
   - GameOverInfo
   - PauseInfo
+  - NextLevel
   layers:
   - Default
   - TransparentFX
