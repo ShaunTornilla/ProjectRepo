@@ -67,9 +67,11 @@ public class GameController : MonoBehaviour
         if(gameOver)
         {
             Text text = gameOverObject.GetComponent<Text>();
-            if(win)
+            gameOverObject.SetActive(true);
+            if (win)
             {
                 text.text = "You Win!";
+                GameObject.FindGameObjectWithTag("NextLevel").SetActive(true);
                 PlayerPrefs.SetInt(levelName + "Beaten", 1);
             }
             else
@@ -77,7 +79,6 @@ public class GameController : MonoBehaviour
                 text.text = "You Lose";
                 GameObject.FindGameObjectWithTag("NextLevel").SetActive(false);
             }
-            gameOverObject.SetActive(true);
             Time.timeScale = 0f;
         }
         if(change)
