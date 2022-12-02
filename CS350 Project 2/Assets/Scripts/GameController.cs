@@ -27,6 +27,8 @@ public class GameController : MonoBehaviour
     //private Text CO2Text;
     private GameObject gameOverObject;
     private GameObject pauseMenu;
+    private GameObject nextLevelButton;
+
     public Slider slider;
     public Gradient gradient;
     public Image fill;
@@ -44,10 +46,12 @@ public class GameController : MonoBehaviour
         sound = GetComponent<AudioSource>();
         treeText = GameObject.FindGameObjectWithTag("TreeInfo").GetComponent<Text>();
         //CO2Text = GameObject.FindGameObjectWithTag("CO2Info").GetComponent<Text>();
+        nextLevelButton = GameObject.FindGameObjectWithTag("NextLevel");
         gameOverObject = GameObject.FindGameObjectWithTag("GameOverInfo");
         gameOverObject.SetActive(false);
         pauseMenu = GameObject.FindGameObjectWithTag("PauseInfo");
         pauseMenu.SetActive(false);
+        
         trees = new List<GameObject>(GameObject.FindGameObjectsWithTag("Ungrown"));
         //foreach (GameObject temp in trees)
             //Debug.Log(temp.name);
@@ -71,13 +75,15 @@ public class GameController : MonoBehaviour
             if (win)
             {
                 text.text = "You Win!";
+                nextLevelButton.SetActive(true);
                 GameObject.FindGameObjectWithTag("NextLevel").SetActive(true);
                 PlayerPrefs.SetInt(levelName + "Beaten", 1);
             }
             else
             {
                 text.text = "You Lose";
-                GameObject.FindGameObjectWithTag("NextLevel").SetActive(false);
+                nextLevelButton.SetActive(false);
+
             }
             Time.timeScale = 0f;
         }
@@ -156,8 +162,4 @@ public class GameController : MonoBehaviour
         slider.value = co2 / maxco2;
         fill.color = gradient.Evaluate(co2 / maxco2);
     }
-
-
-
-
 }
