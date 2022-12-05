@@ -12075,6 +12075,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1591937739}
   m_PrefabAsset: {fileID: 0}
+--- !u!60 &1663716035 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8278127459735629775, guid: a2caf7f25f87f184c828ff252eb483e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1718043079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1695458019
 GameObject:
   m_ObjectHideFlags: 0
@@ -12366,7 +12372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 0}
+  m_BoundingShape2D: {fileID: 1663716035}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!4 &2002353493 stripped
